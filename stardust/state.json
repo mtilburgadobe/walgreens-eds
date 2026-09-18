@@ -25,10 +25,12 @@
   },
   "replicaGate": {
     "status": "failed",
-    "desktopPixelDiffPercent": 36.61,
-    "desktopHeightDeltaPx": 0,
-    "mobilePixelDiffPercent": 49.91,
-    "mobileHeightDeltaPx": 230,
+    "pixelGatePassed": true,
+    "desktopPixelDiffPercent": 7.13,
+    "desktopHeightDeltaPx": 6,
+    "mobilePixelDiffPercent": 9.1,
+    "mobileHeightDeltaPx": -8,
+    "structuralRedFindingsPerWidth": 23,
     "passBarPercent": 10,
     "report": "stardust/replica/gate-report.md"
   },
@@ -38,8 +40,9 @@
     "org": "mtilburgadobe",
     "repo": "walgreens-eds",
     "branch": "main",
+    "codeCommit": "f54e873",
     "previewUrl": "https://main--walgreens-eds--mtilburgadobe.aem.page/",
     "published": false,
-    "publishBlockedBy": "Source-fidelity pixel gate exceeds the 10% pass bar."
+    "publishBlockedBy": "Raw structural comparison reports 23 red findings per width."
   }
 }
