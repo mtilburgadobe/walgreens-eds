@@ -10,6 +10,7 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  toClassName,
 } from './aem.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
@@ -142,6 +143,23 @@ function decorateButtons(main) {
   });
 }
 
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > div').forEach((section) => {
+    const metadata = section.querySelector(':scope > .section-metadata');
+    if (!metadata) return;
+
+    [...metadata.children].forEach((row) => {
+      const cells = [...row.children];
+      if (toClassName(cells[0]?.textContent || '') !== 'style') return;
+      cells[1]?.textContent.split(',').forEach((style) => {
+        const className = toClassName(style.trim());
+        if (className) section.classList.add(className);
+      });
+    });
+    metadata.remove();
+  });
+}
+
 /**
  * Decorates the main element.
  * @param {Element} main The main element
@@ -150,6 +168,7 @@ function decorateButtons(main) {
 export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
+  decorateSectionMetadata(main);
   decorateSections(main);
   decorateBlocks(main);
   decorateButtons(main);
