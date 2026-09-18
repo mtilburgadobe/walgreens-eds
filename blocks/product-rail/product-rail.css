@@ -9,6 +9,50 @@
   list-style: none;
 }
 
+.product-rail.coupons {
+  position: relative;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1076px) 40px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.product-rail.coupons > ul {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.product-rail.coupons > ul::-webkit-scrollbar {
+  display: none;
+}
+
+.product-rail.coupons > button {
+  position: relative;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  padding: 0 0 4px;
+  border: 1px solid #767676;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--wag-ink);
+  font: 36px/1 var(--body-font-family);
+  cursor: pointer;
+}
+
+.product-rail.coupons > button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.product-rail.coupons > button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
 .product-rail > ul > li {
   display: flex;
   min-height: 285px;
@@ -19,6 +63,10 @@
   border-radius: 7px;
   background: #fff;
   color: var(--wag-ink);
+}
+
+.product-rail.coupons > ul > li {
+  scroll-snap-align: start;
 }
 
 .product-rail .product-rail-media {
@@ -98,6 +146,17 @@
     grid-template-columns: none;
     grid-auto-columns: 241px;
     overflow-x: auto;
+  }
+
+  .product-rail.coupons {
+    grid-template-columns: 32px minmax(0, 1fr) 32px;
+    gap: 8px;
+  }
+
+  .product-rail.coupons > button {
+    width: 32px;
+    height: 32px;
+    font-size: 30px;
   }
 
   .product-rail.halloween-products > ul {

@@ -5,6 +5,48 @@ function mediaFrom(cell) {
   return cell.matches('picture, img') ? cell : cell.querySelector('picture, img');
 }
 
+function decorateCouponCarousel(block, list) {
+  block.setAttribute('role', 'region');
+  block.setAttribute('aria-label', 'Beauty deals you’ll love carousel');
+
+  const previous = document.createElement('button');
+  previous.className = 'product-rail-previous';
+  previous.type = 'button';
+  previous.setAttribute('aria-label', 'Previous slide');
+  previous.textContent = '‹';
+
+  const next = document.createElement('button');
+  next.className = 'product-rail-next';
+  next.type = 'button';
+  next.setAttribute('aria-label', 'Next slide');
+  next.textContent = '›';
+
+  const updateControls = () => {
+    const maxScroll = list.scrollWidth - list.clientWidth;
+    previous.disabled = list.scrollLeft <= 1;
+    next.disabled = list.scrollLeft >= maxScroll - 1;
+  };
+
+  const scrollPage = (direction) => {
+    const card = list.querySelector('li');
+    if (!card) return;
+    const gap = parseFloat(getComputedStyle(list).columnGap) || 0;
+    const cardsPerPage = window.matchMedia('(width <= 640px)').matches ? 1 : 3;
+    list.scrollBy({
+      left: direction * (card.getBoundingClientRect().width + gap) * cardsPerPage,
+      behavior: 'smooth',
+    });
+  };
+
+  previous.addEventListener('click', () => scrollPage(-1));
+  next.addEventListener('click', () => scrollPage(1));
+  list.addEventListener('scroll', updateControls, { passive: true });
+  window.addEventListener('resize', updateControls);
+
+  block.append(previous, list, next);
+  requestAnimationFrame(updateControls);
+}
+
 export default function decorate(block) {
   const list = document.createElement('ul');
   [...block.children].forEach((row) => {
@@ -27,5 +69,8 @@ export default function decorate(block) {
     if (copy.childNodes.length) item.append(copy);
     list.append(item);
   });
-  if (list.children.length) block.replaceChildren(list);
+  if (!list.children.length) return;
+  block.replaceChildren();
+  if (block.classList.contains('coupons')) decorateCouponCarousel(block, list);
+  else block.append(list);
 }
