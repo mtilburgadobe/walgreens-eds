@@ -1,0 +1,9 @@
+{
+  "sourceUrl": "https://www.walgreens.com/",
+  "captureJson": "stardust/current/pages/index.json",
+  "captureHtml": "stardust/current/pages/index.html",
+  "captureScreenshot": "stardust/current/assets/screenshots/index.png",
+  "createdBy": "stardust replica 0.22.1 workflow",
+  "method": "semantic re-authoring; no source DOM or stylesheet copied",
+  "imageDisposition": "temporary source URLs pending DA asset import"
+}

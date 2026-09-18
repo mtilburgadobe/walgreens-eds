@@ -1,9 +1,11 @@
-# Your Project's Title...
-Your project's description...
+# Walgreens AEM Edge Delivery Services Migration
+
+Same-design migration pilot for Walgreens.com using the Stardust
+`replica -> migrate -> deploy` workflow.
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: https://main--walgreens-eds--mtilburgadobe.aem.page/
+- Live: https://main--walgreens-eds--mtilburgadobe.aem.live/
 
 ## Documentation
 

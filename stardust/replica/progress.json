@@ -1,0 +1,27 @@
+{
+  "homepage": {
+    "archetype": "index",
+    "prototype": "stardust/prototypes/index-proposed.html",
+    "iterations": {
+      "1440": 3,
+      "360": 2
+    },
+    "gates": {
+      "1440": {
+        "pixelDiffPercent": 36.61,
+        "heightDeltaPx": 0,
+        "status": "residual"
+      },
+      "360": {
+        "pixelDiffPercent": 49.91,
+        "heightDeltaPx": 230,
+        "status": "residual"
+      }
+    },
+    "motion": {
+      "observed": false,
+      "implemented": false,
+      "dead": []
+    }
+  }
+}

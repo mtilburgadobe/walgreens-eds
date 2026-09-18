@@ -1,0 +1,35 @@
+{
+  "mode": "replica",
+  "provenance": "bounded-single",
+  "source": "https://www.walgreens.com/",
+  "capturedAt": "2026-09-18T14:28:51.628Z",
+  "tokens": {
+    "color": {
+      "red": "#e62600",
+      "crimson": "#a32a33",
+      "deep": "#72002e",
+      "ink": "#413d3c",
+      "warm": "#f4f2ef"
+    },
+    "layout": {
+      "maxWidth": "1392px",
+      "desktopGutter": "24px",
+      "mobileGutter": "10px"
+    }
+  },
+  "extensions": {
+    "canon": {
+      "source": "bounded-single: index",
+      "header": "Walgreens retail utility/search/navigation shell",
+      "footer": "Signup, customer-service, membership, company and legal links"
+    },
+    "metadata": {
+      "keyFacts": [
+        "Because your health matters",
+        "Beauty Savings Event + 20% OFF with WELL20",
+        "Deals of the Week",
+        "Featured categories"
+      ]
+    }
+  }
+}

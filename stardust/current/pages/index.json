@@ -1,0 +1,2157 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T14:28:51.628Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.walgreens.com/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T14:28:51.628Z",
+  "finalUrl": "https://www.walgreens.com/",
+  "title": "Walgreens: Pharmacy, Health & Wellness, Photo & More for You",
+  "description": "Your go-to for Pharmacy, Health & Wellness and Photo products. Refill prescriptions online, order items for delivery or store pickup, and create Photo Gifts.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Because your health matters"
+    },
+    {
+      "tag": "h2",
+      "text": "Beauty Savings Event + 20% OFF with WELL20"
+    },
+    {
+      "tag": "h2",
+      "text": "Fall well-being refresh"
+    },
+    {
+      "tag": "h2",
+      "text": "Save every smile"
+    },
+    {
+      "tag": "h2",
+      "text": "Deals of the Week"
+    },
+    {
+      "tag": "h3",
+      "text": "Offers just for you"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore more"
+    },
+    {
+      "tag": "h2",
+      "text": "Featured categories"
+    },
+    {
+      "tag": "h2",
+      "text": "Customer Service"
+    },
+    {
+      "tag": "h2",
+      "text": "myWalgreens®"
+    },
+    {
+      "tag": "h2",
+      "text": "Company Information"
+    },
+    {
+      "tag": "h2",
+      "text": "Walgreens API/Affiliate Program"
+    },
+    {
+      "tag": "h2",
+      "text": "Terms and Conditions"
+    },
+    {
+      "tag": "h2",
+      "text": "Privacy & Security"
+    },
+    {
+      "tag": "h2",
+      "text": "Walgreens Advertising Group"
+    },
+    {
+      "tag": "h2",
+      "text": "Walgreens Clinical Trials"
+    },
+    {
+      "tag": "h2",
+      "text": "Sell Your Pharmacy"
+    },
+    {
+      "tag": "h2",
+      "text": "View all products by:"
+    },
+    {
+      "tag": "h2",
+      "text": "Top photo products:"
+    },
+    {
+      "tag": "h2",
+      "text": "PRICING PROMISE:"
+    }
+  ],
+  "body": [
+    "Get vaccinated and earn $15 Walgreens Cash or more* in rewards on your next eligible in-store purchase. *Min. purchase req. Restrictions apply.",
+    "Plan ahead for the season Get your flu shot today. Walk in or schedule online.",
+    "Feeling under the weather? Find out if it's flu or COVID-19 with an at-home test or get tested by our pharmacy team.",
+    "Only $49 per visit Get a GLP-1 prescription Medication costs not included. Rx based on medical evaluation.",
+    "Sign up for real-time prescription alerts Text JOINRX to 21525",
+    "Earn $10 in rewards*",
+    "on $30+ mix & match select beauty",
+    "Buy 1 Get 1",
+    "50% OFF",
+    "select same-brand cosmetics",
+    "Earn $10 in rewards*",
+    "when you spend $50+ in store or online",
+    "Beauty deals you’ll love",
+    "20% OFF",
+    "$40+ on select wellness & beauty items with code WELL20",
+    "Buy 1 Get 1",
+    "FREE",
+    "select same-brand vitamins & supplements",
+    "Buy 1 Get 1",
+    "50% OFF",
+    "select Tampax & Always + $5 rewards* on $30",
+    "50% OFF Everything Photo",
+    "50% OFF Wall Décor",
+    "50% OFF Prints & Enlargements",
+    "Shop all Halloween",
+    "Join myWalgreens®",
+    "Download our app Plus get an extra 10% OFF sitewide with code WAG10*",
+    "Get it faster Try 30-Minute Pickup or 1-Hour Delivery FREE on $35+.",
+    "Unlock your offer Get $50 in rewards* with the myWalgreens® Credit Card. Learn how.",
+    "Halloween",
+    "Grocery & Beverage",
+    "Vitamins & Supplements",
+    "Personal Care",
+    "Beauty",
+    "Household & Pet Essentials",
+    "Medicines & Treatments",
+    "Contact Lenses",
+    "Active Nutrition",
+    "First Aid",
+    "Beauty deals you’ll love"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Earn $10 in rewards* on $50+ in store or online",
+      "href": "https://www.walgreens.com/offers/offers.jsp?offerId=1000005385&status=clip"
+    },
+    {
+      "label": "Earn $10 in rewards* on $30+ mix & match select beauty",
+      "href": "https://www.walgreens.com/store/c/productlist/N=20007726"
+    },
+    {
+      "label": "Schedule vaccinations",
+      "href": "https://www.walgreens.com/findcare/schedule-vaccine"
+    },
+    {
+      "label": "Nearest store151 N State St, Chicago, IL",
+      "href": null
+    },
+    {
+      "label": "AccountMenu",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Pharmacy",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Health Services",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Shop",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Savings",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Photo",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Financial Services",
+      "href": "javascript:void(0);"
+    },
+    {
+      "label": "Weekly Ad",
+      "href": "/offers/offers.jsp/weeklyad?ban=dl_dlsp_MegaMenu_WeeklyAd"
+    },
+    {
+      "label": "Halloween",
+      "href": "/store/c/productlist/N=20001182/1/ShopAll=20001182"
+    },
+    {
+      "label": "Vaccinations",
+      "href": "/topic/pharmacy/immunization-services-appointments.jsp"
+    },
+    {
+      "label": "Español",
+      "href": null
+    },
+    {
+      "label": "Schedule vaccinations",
+      "href": "https://www.walgreens.com/findcare/schedule-vaccine?ban=HP_HealthPills_4192026_Vaccines"
+    },
+    {
+      "label": "GLP-1s for weight loss",
+      "href": "https://www.walgreens.com/topic/virtual-healthcare/weight-loss.jsp?ban=HP_HealthPills_4192026_GLP1"
+    },
+    {
+      "label": "Manage prescriptions",
+      "href": "https://www.walgreens.com/rx-refillhub/refillhub-holistic?ban=HP_HealthPills_5032026_RxRefill"
+    },
+    {
+      "label": "Shop contact lenses",
+      "href": "https://www.walgreens.com/store/c/contact-lenses/ID=359432-tier2clense?ban=HP_HealthPills_4192026_ContactLenses"
+    },
+    {
+      "label": "Schedule now",
+      "href": "https://www.walgreens.com/findcare/schedule-vaccine"
+    },
+    {
+      "label": "Plan ahead for the season Get your flu shot today. Walk in or schedule online.",
+      "href": "https://www.walgreens.com/findcare/schedule-vaccine"
+    },
+    {
+      "label": "Feeling under the weather? Find out if it's flu or COVID-19 with an at-home test or get tested by our pharmacy team.",
+      "href": "https://www.walgreens.com/testandtreat/testing"
+    },
+    {
+      "label": "Only $49 per visit Get a GLP-1 prescription Medication costs not included. Rx based on medical evaluation.",
+      "href": "https://www.walgreens.com/topic/virtual-healthcare/weight-loss.jsp"
+    },
+    {
+      "label": "Sign up for real-time prescription alerts Text JOINRX to 21525",
+      "href": "https://www.walgreens.com/topic/pharmacy/text-alerts.jsp"
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Buy 1 Get 1 50% OFF select same-brand cosmetics",
+      "href": "https://www.walgreens.com/store/c/productlist/N=20007727"
+    },
+    {
+      "label": "Earn $10 in rewards* when you spend $50+ in store or online",
+      "href": "https://www.walgreens.com/offers/offers.jsp?offerId=1000005385&status=clip"
+    },
+    {
+      "label": "View all",
+      "href": "https://www.walgreens.com/offers/offers.jsp"
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "20% OFF $40+ on select wellness & beauty items with code WELL20",
+      "href": "https://www.walgreens.com/store/c/productlist/N=20007519"
+    },
+    {
+      "label": "Buy 1 Get 1 FREE select same-brand vitamins & supplements",
+      "href": "https://www.walgreens.com/store/c/productlist/N=20007723"
+    },
+    {
+      "label": "Buy 1 Get 1 50% OFF select Tampax & Always + $5 rewards* on $30",
+      "href": "https://www.walgreens.com/store/c/productlist/N=360515-656-823"
+    },
+    {
+      "label": "50% OFF Everything Photo",
+      "href": "https://photo.walgreens.com/store/home"
+    },
+    {
+      "label": "50% OFF Wall Décor",
+      "href": "https://photo.walgreens.com/store/wall-decor"
+    },
+    {
+      "label": "50% OFF Prints & Enlargements",
+      "href": "https://photo.walgreens.com/store/prints"
+    },
+    {
+      "label": "Shop now",
+      "href": "https://www.walgreens.com/store/c/productlist/N=20001182/1/ShopAll=20001182"
+    },
+    {
+      "label": "View all",
+      "href": "https://www.walgreens.com/offers/offers.jsp/weeklyad"
+    },
+    {
+      "label": "$0.88 Walgreens Food Storage Bags",
+      "href": "#"
+    },
+    {
+      "label": "$4 or $4.50 Crest or Oral-B Dental Care",
+      "href": "#"
+    },
+    {
+      "label": "Buy 1 get 1 50% off Old Spice Spray or Solid Deodorant",
+      "href": "#"
+    },
+    {
+      "label": "Buy 2 get 1 FREE 12-Pack Coca-Cola Products",
+      "href": "#"
+    },
+    {
+      "label": "$18.99 Green Mountain, McCafe or Original Donut Shop Coffee K-Cups",
+      "href": "#"
+    },
+    {
+      "label": "Buy 1 get 1 50% off Always or Tampax Feminine Care",
+      "href": "#"
+    },
+    {
+      "label": "$3.99 General Mills Cereal or Nature Valley Granola",
+      "href": "#"
+    },
+    {
+      "label": "4/$10 or $4.49 ea. Bounce, Downy, Febreze, Gain, Mr. Clean or Tide Simply",
+      "href": "#"
+    },
+    {
+      "label": "2/$6 or $5.49 ea. Doritos",
+      "href": "#"
+    },
+    {
+      "label": "$11.99 Bounty or Charmin Paper Products",
+      "href": "#"
+    },
+    {
+      "label": "Buy 2 get 1 FREE 12-Pack Pepsi Products",
+      "href": "#"
+    },
+    {
+      "label": "$5 or $6 Colgate or Hello Dental Care",
+      "href": "#"
+    },
+    {
+      "label": "Buy 2 get 1 FREE 12-Pack Canada Dry or Dr Pepper Products",
+      "href": "#"
+    },
+    {
+      "label": "View all",
+      "href": "https://www.walgreens.com/offers/offers.jsp?ban=HP_Coupon_8302026_Control"
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Clip",
+      "href": null
+    },
+    {
+      "label": "Join myWalgreens®",
+      "href": "https://www.walgreens.com/topic/promotion/mywalgreens.jsp?ban=HP_Tertiary_3152026_JoinMyw"
+    },
+    {
+      "label": "Download our app Plus get an extra 10% OFF sitewide with code WAG10*",
+      "href": "https://www.walgreens.com/promotion/walgreens-app?ban=HP_Tertiary_3152026_AppDownload"
+    },
+    {
+      "label": "Get it faster Try 30-Minute Pickup or 1-Hour Delivery FREE on $35+.",
+      "href": "https://www.walgreens.com/store-services/same-day-delivery?ban=HP_Tertiary_3152026_Pickup_Delivery"
+    },
+    {
+      "label": "Unlock your offer Get $50 in rewards* with the myWalgreens® Credit Card. Learn how.",
+      "href": "https://www.walgreens.com/mywalgreens/cards/credit.jsp?BAN=CCHPTile&sitecode=WGDCOMHPT"
+    },
+    {
+      "label": "Halloween",
+      "href": "https://www.walgreens.com/store/c/productlist/N=20001182/1/ShopAll=20001182"
+    },
+    {
+      "label": "Grocery & Beverage",
+      "href": "https://www.walgreens.com/store/c/grocery-and-beverages/ID=359451-tier1?ban=HP_FeatCategories_2012026_GroceryBeverages"
+    },
+    {
+      "label": "Vitamins & Supplements",
+      "href": "https://www.walgreens.com/store/c/vitamins-and-supplements/ID=359441-tier1?ban=HP_FeatCategories_2012026_Vitamins"
+    },
+    {
+      "label": "Personal Care",
+      "href": "https://www.walgreens.com/store/c/personal-care/ID=359436-tier1?ban=HP_FeatCategories_2012026_Personal%20Care"
+    },
+    {
+      "label": "Beauty",
+      "href": "https://www.walgreens.com/store/c/beauty-products/ID=359434-tier1?ban=HP_FeatCategories_2012026_Beauty"
+    },
+    {
+      "label": "Household & Pet Essentials",
+      "href": "https://www.walgreens.com/store/c/household-and-pet-essentials/ID=20000910-tier1?ban=HP_FeatCategories_2012026_HouseholdPet%20Essentials"
+    },
+    {
+      "label": "Medicines & Treatments",
+      "href": "https://www.walgreens.com/store/c/productlist/N=359438/1/ShopAll=359438?ban=HP_FeatCategories_2012026_MedicinesTreatments"
+    },
+    {
+      "label": "Contact Lenses",
+      "href": "https://www.walgreens.com/store/c/contact-lenses/ID=359432-tier2clense?ban=HP_FeatCategories_2012026_ContactLenses"
+    },
+    {
+      "label": "Active Nutrition",
+      "href": "https://www.walgreens.com/store/c/productlist/N=359447/1/ShopAll=359447?ban=HP_FeatCategories_2012026_ActiveNutrition"
+    },
+    {
+      "label": "First Aid",
+      "href": "https://www.walgreens.com/store/c/productlist/N=360533/1/ShopAll=360533?ban=HP_FeatCategories_2012026_FirstAid"
+    },
+    {
+      "label": "See more",
+      "href": null
+    },
+    {
+      "label": "Sign up for deals and offers!",
+      "href": "/register/regpersonalinfo?ban=dl_dlhp_11122023_Banner_EmailCaptureRedirect"
+    },
+    {
+      "label": "Customer Service",
+      "href": "/topic/help/customerservicehelp/customer_service_help_main.jsp?foot=customer_service"
+    },
+    {
+      "label": "Shipping",
+      "href": "/topic/help/shipping/shipping_help_main.jsp?foot=shipping"
+    },
+    {
+      "label": "Returns",
+      "href": "/topic/help/shophelp/returns_help_main.jsp?foot=returns#Return"
+    },
+    {
+      "label": "Help/FAQs",
+      "href": "/topic/help/default.jsp?foot=help"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/mktg/contactus/contact-us-landing.jsp?foot=contact_us"
+    },
+    {
+      "label": "myWalgreens®",
+      "href": "#!"
+    },
+    {
+      "label": "Program Membership",
+      "href": "/topic/promotion/mywalgreens.jsp"
+    },
+    {
+      "label": "myWalgreens® Credit Card",
+      "href": "/mywalgreens/cards/credit.jsp?BAN=CCSITEFOOTER&sitecode=WGDCOMFT"
+    },
+    {
+      "label": "Pay myWalgreens® Credit Card Bill",
+      "href": "https://walgreens.syf.com"
+    },
+    {
+      "label": "Company Information",
+      "href": "https://corporate.walgreens.com/"
+    }
+  ],
+  "links": [
+    "https://www.walgreens.com/#page-content",
+    "https://www.walgreens.com/offers/offers.jsp?offerId=1000005385&status=clip",
+    "https://www.walgreens.com/store/c/productlist/N=20007726",
+    "https://www.walgreens.com/findcare/schedule-vaccine",
+    "https://www.walgreens.com/",
+    "javascript:void(0);",
+    "https://www.walgreens.com/youraccount/default.jsp",
+    "https://www.walgreens.com/mywalgreens/dashboard.jsp",
+    "https://www.walgreens.com/rx-refillhub/refillhub-holistic",
+    "https://www.walgreens.com/immunizationservice/pharmacy/immunization/ViewImmunizeHistory.jsp",
+    "https://www.walgreens.com/orderhistory/orders-ui",
+    "https://www.walgreens.com/youraccount/dlorder/reorder.jsp",
+    "https://www.walgreens.com/cart/view-ui",
+    "https://www.walgreens.com/pharmacy/fulfillment/rx-landing?flow=rxhomelanding",
+    "https://www.walgreens.com/pharmacy/fulfillment/rx-landing",
+    "https://www.walgreens.com/rx-status/",
+    "https://www.walgreens.com/rx-settings/print-rx",
+    "https://www.walgreens.com/rx-checkout/order/transfer-prescription",
+    "https://www.walgreens.com/rx-checkout/order/enter-prescription",
+    "https://www.walgreens.com/rx-refillhub/autorefill",
+    "https://www.walgreens.com/rx-druginfo/pharmacy/finddrug/druginfosearch",
+    "https://www.walgreens.com/youraccount/clhistory/contactlenshist.jsp",
+    "https://www.walgreens.com/store/c/contact-lenses/ID=350006-tier3contactlens",
+    "https://www.walgreens.com/store/c/solutions-drops-and-cases/ID=360305-tier3contactlens",
+    "https://www.walgreens.com/store/c/contact-lenses-eye-health-supplements/ID=360307-tier3contactlens",
+    "https://www.walgreens.com/store/c/contact-lenses/ID=359432-tier2clense",
+    "https://www.walgreens.com/rx-utility/pharmacychat",
+    "https://www.walgreens.com/rx-checkout/guest-express-refill",
+    "https://www.walgreens.com/rx-settings/home-delivery-pharmacy",
+    "https://www.walgreens.com/topic/pharmacy/specialty-pharmacy.jsp",
+    "https://www.walgreens.com/topic/pharmacy/prescription-delivery.jsp?o=acs",
+    "https://www.walgreens.com/topic/pharmacy/compounding.jsp?o=acs",
+    "https://www.walgreens.com/topic/pharmacy/nebulizer-services.jsp?o=acs",
+    "https://www.walgreens.com/topic/pharmacy/rx-savings-finder.jsp",
+    "https://www.walgreens.com/youraccount/communication_preferences.jsp",
+    "https://www.walgreens.com/rx-settings/rxsettings/pay",
+    "https://www.walgreens.com/pharmacy/youraccount/accountbalance/payment.jsp",
+    "https://www.walgreens.com/pharmacy/familyaccount/managefamilyaccounts.jsp",
+    "https://www.walgreens.com/rx-settings/prescription-insurance",
+    "https://www.walgreens.com/rx-settings/rxsettings/cap",
+    "https://www.walgreens.com/rx-settings/rxsettings",
+    "https://www.walgreens.com/youraccount/health_history.jsp",
+    "https://www.walgreens.com/findcare/services",
+    "https://www.walgreens.com/topic/pharmacy/immunization-services-appointments.jsp",
+    "https://www.walgreens.com/testandtreat/testing",
+    "https://www.walgreens.com/testandtreat/treatment",
+    "https://www.walgreens.com/topic/virtual-healthcare.jsp",
+    "https://www.walgreens.com/topic/virtual-healthcare/weight-loss.jsp",
+    "https://www.walgreens.com/topic/pharmacy/glp-1-bridge-program.jsp?ban=globalNav_HS_GLP1",
+    "https://www.walgreens.com/findcare/category/inperson-visit",
+    "https://www.walgreens.com/topic/mywalgreenshealthaccess.jsp",
+    "https://www.walgreens.com/findcare/find-prescription-coverage",
+    "https://www.walgreens.com/health-services/clinical-trials",
+    "https://blog.walgreens.com/",
+    "https://www.walgreens.com/store/catalog/shopLanding?ban=dl_dlsp_ShopProducts_ShopAll",
+    "https://www.walgreens.com/store/c/productlist/N=20001182/1/ShopAll=20001182",
+    "https://www.walgreens.com/store/c/allergy-and-sinus/ID=20003545-tier1",
+    "https://www.walgreens.com/store/c/grocery-and-beverages/ID=359451-tier1",
+    "https://www.walgreens.com/store/c/beauty/ID=359434-tier1",
+    "https://www.walgreens.com/store/c/personal-care/ID=359436-tier1",
+    "https://www.walgreens.com/store/c/household-and-pet-essentials/ID=20000910-tier1",
+    "https://www.walgreens.com/store/c/medicines-and-treatments/ID=359438-tier1",
+    "https://www.walgreens.com/store/c/sexual-wellness/ID=359445-tier1",
+    "https://www.walgreens.com/store/c/vitamins-and-supplements/ID=359441-tier1",
+    "https://www.walgreens.com/store/c/baby-and-kids/ID=359449-tier1",
+    "https://www.walgreens.com/store/c/toys-games-and-books/ID=20001469-tier1",
+    "https://www.walgreens.com/store/c/home-health-care-solutions/ID=359443-tier1",
+    "https://www.walgreens.com/store/c/walgreens-brand/ID=359461-tier1",
+    "https://www.walgreens.com/store/c/fitness-and-nutrition/ID=359447-tier1",
+    "https://www.walgreens.com/topic/walgreensgiftcards.jsp",
+    "https://www.walgreens.com/store/c/incontinence/ID=360513-tier2general",
+    "https://www.walgreens.com/store/c/first-aid/ID=20006930-tier1",
+    "https://www.walgreens.com/store/c/men's-zone/ID=20006220-tier1",
+    "https://www.walgreens.com/search/results.jsp?Ntt=Clearance&ban=dl_dlsp_ShopProducts_Clearance",
+    "https://www.walgreens.com/store/store/save/sale.jsp?ban=dl_dlsp_ShopProducts_Sale",
+    "https://www.walgreens.com/store/store/brands/brand.jsp?ban=dl_dlsp_ShopProducts_ShopbyBrand",
+    "https://www.walgreens.com/youraccount/dlorder/reorder.jsp?ban=dl_dlsp_ShopProducts_BuyAgain",
+    "https://www.walgreens.com/shop#shop-deals-hub-container",
+    "https://www.walgreens.com/offers/offers.jsp?ban=dl_dlsp_MegaMenu_Coupons",
+    "https://www.walgreens.com/offers/offers.jsp/weeklyad?ban=dl_dlsp_MegaMenu_Savings_WeeklyAd",
+    "https://www.walgreens.com/topic/promotion/mywalgreens.jsp",
+    "https://photo.walgreens.com/store/home",
+    "https://photo.walgreens.com/store/prints",
+    "https://photo.walgreens.com/store/photo-books",
+    "https://photo.walgreens.com/store/cards",
+    "https://photo.walgreens.com/store/calendars",
+    "https://photo.walgreens.com/store/posters",
+    "https://photo.walgreens.com/store/home-decor",
+    "https://photo.walgreens.com/store/gifts",
+    "https://photo.walgreens.com/store/passport-photos",
+    "https://photo.walgreens.com/store/deals",
+    "https://photo.walgreens.com/store/all-products",
+    "https://www.walgreens.com/topic/financial-services/overview.jsp",
+    "https://walgreens.corporate.thegiftcardshop.com/",
+    "https://www.walgreens.com/mywalgreens/cards/credit.jsp?BAN=GLNAV&sitecode=WGDCOMNAV",
+    "https://www.walgreens.com/mywalgreens/cards/debit.jsp",
+    "https://www.walgreens.com/topic/promotion/reloadablecards.jsp",
+    "https://www.walgreens.com/topic/promotion/western-union.jsp",
+    "https://www.walgreens.com/offers/offers.jsp/weeklyad?ban=dl_dlsp_MegaMenu_WeeklyAd",
+    "https://www.walgreens.com/storelocator/find.jsp?tab=store+locator&requestType=locator",
+    "https://www.walgreens.com/findcare/schedule-vaccine?ban=HP_HealthPills_4192026_Vaccines",
+    "https://www.walgreens.com/topic/virtual-healthcare/weight-loss.jsp?ban=HP_HealthPills_4192026_GLP1",
+    "https://www.walgreens.com/rx-refillhub/refillhub-holistic?ban=HP_HealthPills_5032026_RxRefill",
+    "https://www.walgreens.com/store/c/contact-lenses/ID=359432-tier2clense?ban=HP_HealthPills_4192026_ContactLenses",
+    "https://www.walgreens.com/topic/pharmacy/text-alerts.jsp",
+    "https://www.walgreens.com/store/c/productlist/N=20007727",
+    "https://www.walgreens.com/offers/offers.jsp",
+    "https://www.walgreens.com/register/mywalgreens/enroll",
+    "https://www.walgreens.com/store/c/productlist/N=20007519",
+    "https://www.walgreens.com/store/c/productlist/N=20007723",
+    "https://www.walgreens.com/store/c/productlist/N=360515-656-823",
+    "https://photo.walgreens.com/store/wall-decor",
+    "https://www.walgreens.com/offers/offers.jsp/weeklyad",
+    "https://www.walgreens.com/#",
+    "https://www.walgreens.com/offers/offers.jsp?ban=HP_Coupon_8302026_Control",
+    "https://www.walgreens.com/topic/promotion/mywalgreens.jsp?ban=HP_Tertiary_3152026_JoinMyw",
+    "https://www.walgreens.com/promotion/walgreens-app?ban=HP_Tertiary_3152026_AppDownload",
+    "https://www.walgreens.com/store-services/same-day-delivery?ban=HP_Tertiary_3152026_Pickup_Delivery",
+    "https://www.walgreens.com/mywalgreens/cards/credit.jsp?BAN=CCHPTile&sitecode=WGDCOMHPT",
+    "https://www.walgreens.com/store/c/grocery-and-beverages/ID=359451-tier1?ban=HP_FeatCategories_2012026_GroceryBeverages",
+    "https://www.walgreens.com/store/c/vitamins-and-supplements/ID=359441-tier1?ban=HP_FeatCategories_2012026_Vitamins",
+    "https://www.walgreens.com/store/c/personal-care/ID=359436-tier1?ban=HP_FeatCategories_2012026_Personal%20Care",
+    "https://www.walgreens.com/store/c/beauty-products/ID=359434-tier1?ban=HP_FeatCategories_2012026_Beauty",
+    "https://www.walgreens.com/store/c/household-and-pet-essentials/ID=20000910-tier1?ban=HP_FeatCategories_2012026_HouseholdPet%20Essentials",
+    "https://www.walgreens.com/store/c/productlist/N=359438/1/ShopAll=359438?ban=HP_FeatCategories_2012026_MedicinesTreatments",
+    "https://www.walgreens.com/store/c/contact-lenses/ID=359432-tier2clense?ban=HP_FeatCategories_2012026_ContactLenses",
+    "https://www.walgreens.com/store/c/productlist/N=359447/1/ShopAll=359447?ban=HP_FeatCategories_2012026_ActiveNutrition",
+    "https://www.walgreens.com/store/c/productlist/N=360533/1/ShopAll=360533?ban=HP_FeatCategories_2012026_FirstAid",
+    "https://www.walgreens.com/store/c/home-health-care-solutions/ID=359443-tier1?ban=HP_FeatCategories_2152026_HomeHealthcare",
+    "https://www.walgreens.com/store/c/sexual-wellness/ID=359445-tier1?ban=HP_FeatCategories_2012026_SexualWellness",
+    "https://www.walgreens.com/store/c/toys-games-and-books/ID=20001469-tier1?ban=HP_FeatCategories_2012026_ToysGamesBooks",
+    "https://www.walgreens.com/store/c/productlist/N=359449/1/ShopAll=359449?ban=HP_FeatCategories_2012026_BabyKids",
+    "https://www.walgreens.com/topic/store/otc/shop_otc.jsp?ban=HP_FeatCategories_2012026_MA%20OTC",
+    "https://www.walgreens.com/store/c/productlist/N=359461/1/ShopAll=359461?ban=HP_FeatCategories_2012026_WalgreensBrand",
+    "https://www.walgreens.com/search/results.jsp?Ntt=Clearance&ban=HP_FeatCategories_2012026_Clearance",
+    "https://www.walgreens.com/register/regpersonalinfo?ban=dl_dlhp_11122023_Banner_EmailCaptureRedirect",
+    "https://www.walgreens.com/topic/help/customerservicehelp/customer_service_help_main.jsp?foot=customer_service",
+    "https://www.walgreens.com/topic/help/shipping/shipping_help_main.jsp?foot=shipping",
+    "https://www.walgreens.com/topic/help/shophelp/returns_help_main.jsp?foot=returns#Return",
+    "https://www.walgreens.com/topic/help/default.jsp?foot=help",
+    "https://www.walgreens.com/mktg/contactus/contact-us-landing.jsp?foot=contact_us",
+    "https://www.walgreens.com/#!",
+    "https://www.walgreens.com/mywalgreens/cards/credit.jsp?BAN=CCSITEFOOTER&sitecode=WGDCOMFT",
+    "https://walgreens.syf.com/",
+    "https://corporate.walgreens.com/",
+    "https://corporate.walgreens.com/newsroom/",
+    "https://corporate.walgreens.com/impact/",
+    "https://jobs.walgreens.com/",
+    "https://www.walgreens.com/topic/information/california_transparency_act.jsp",
+    "https://www.walgreens.com/topic/promotion/api.jsp",
+    "https://signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=2568723",
+    "https://www.walgreens.com/promotion/offer-details",
+    "https://www.walgreens.com/topic/information/recall.jsp",
+    "https://www.walgreens.com/mktg/contactus/contact-us-forms.jsp?tier3Id=1046",
+    "https://www.walgreens.com/topic/information/access-to-services.jsp",
+    "https://www.walgreens.com/privacycenter",
+    "https://www.walgreens.com/topic/help/general/noticeprivacypractices.jsp?foot=privacy",
+    "https://www.walgreens.com/topic/help/generalhelp/privacyandsecurity.jsp?foot=security",
+    "https://www.walgreens.com/topic/donotsellmyinfo.jsp?o=acs",
+    "https://www.walgreens.com/topic/help/generalhelp/washington-consumer-health-privacy-policy.jsp",
+    "https://www.walgreensadvertisinggroup.com/",
+    "https://www.walgreens.com/topic/clinical-trials.jsp",
+    "https://www.walgreens.com/pharmacy/sell-your-pharmacy",
+    "https://www.walgreens.com/topic/help/generalhelp/termsofuse.jsp?foot=terms",
+    "https://www.walgreens.com/store/c/beauty-products/ID=359434-tier1",
+    "https://www.walgreens.com/store/c/caregiver-essentials/ID=20002602-tier1",
+    "https://www.walgreens.com/store/c/electronics-and-office/ID=20000781-tier1",
+    "https://www.walgreens.com/store/c/gift-cards/ID=20001459-tier1",
+    "https://www.walgreens.com/store/c/grocery/ID=359451-tier1",
+    "https://www.walgreens.com/store/c/home-goods/ID=359453-tier1",
+    "https://www.walgreens.com/store/c/household-essentials/ID=20000910-tier1",
+    "https://www.walgreens.com/store/c/pet/ID=20000612-tier1",
+    "https://www.walgreens.com/search/topSearchResults.jsp",
+    "https://www.walgreens.com/store/store/brands/brand.jsp",
+    "https://photo.walgreens.com/store/same-day-pickup",
+    "https://privacyportal.onetrust.com/webform/e56ed7f6-6f9b-4d8c-b480-6fd18a73178b/2bf4e837-9c6c-4bdb-81fe-ef068f2008a0",
+    "https://privacyportal.onetrust.com/webform/e56ed7f6-6f9b-4d8c-b480-6fd18a73178b/9c14cd7e-0b4e-4234-a57e-bb7823362dea",
+    "https://www.onetrust.com/products/cookie-consent/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.walgreens.com/images/adaptive/livestyleguide/v5/icons/Branding.svg",
+        "alt": "Walgreens: Trusted since 1901",
+        "w": 38,
+        "h": 26
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20260419_HP_HealthPills_OptimizedIconCard_1.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20260419_HP_HealthPills_OptimizedIconCard_2.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/rx_pad.png",
+        "alt": "",
+        "w": 100,
+        "h": 100
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20260419_HP_HealthPills_OptimizedIconCard_4.svg",
+        "alt": "",
+        "w": 24,
+        "h": 24
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260823_HP_Vaccination_SlimInsetBanner.jpg",
+        "alt": "myW(TM)",
+        "w": 1152,
+        "h": 284
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260830_HP_HealthModule_Image_Card1_4up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 672
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260830_HP_HealthModule_Image_Card2_4up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 672
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260830_HP_HealthModule_Image_Card3_4up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 672
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260830_HP_HealthModule_Image_Card4_4up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 672
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260908_HP_EnterpriseA_Image_Card1_AutoClip3up_Refresh.jpg",
+        "alt": "BEAUTY SAVINGS EVENT",
+        "w": 1376,
+        "h": 584
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_EnterpriseA_Image_Card2_AutoClip3up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 672
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_EnterpriseA_Image_Card3_AutoClip3up.jpg",
+        "alt": "myWagreens(TM)",
+        "w": 672,
+        "h": 672
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/26/241/6226241_897afcea-d107-42c0-a518-3e102fc4b4d7_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/19/671/6219671_690c1dd8-5deb-479c-afb6-797c16c3c8ef_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/19/991/6219991_99513232-27e5-4b68-91b7-82f9e5b1dc64_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/20/681/6220681_67bd5ec4-694c-4094-9551-3316ebeb2757_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/22/361/6222361_fe2e3f74-aa20-45c5-87ed-4a68762178a0_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/72/155/6272155_4f12a43d-3a4f-4408-b632-3ad0bce9c5d3_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/56/721/6256721_b6e161e5-eba6-4f98-a93a-055429227c90_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/20/911/6220911_aaf75625-ad66-4c61-9c52-0fb6f0cfbafd_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/23/381/6223381_e204209d-6056-4e6e-b563-e313590898a5_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/04/481/6304481_905d4296-b621-4c2d-b74c-deed613a376a_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/03/451/6303451_302bfe61-f753-4443-820a-23b092fed886_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/sp/logo-mywag.png",
+        "alt": "",
+        "w": 226,
+        "h": 93
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_EnterpriseB_Image_Card1_3up.jpg",
+        "alt": "",
+        "w": 1376,
+        "h": 504
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_EnterpriseB_Image_Card2_3up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 504
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_EnterpriseB_Image_Card3_3up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 504
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_Photo_Image_Card1_3up.jpg",
+        "alt": "",
+        "w": 1376,
+        "h": 504
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_Photo_Image_Card2_3up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 504
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260913_HP_Photo_Image_Card3_3up.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 504
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/image-renditions/20260830_HP_Halloween_Image_SlimBanner.jpg",
+        "alt": "HALLOWEEN",
+        "w": 1440,
+        "h": 330
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/Hub_Illustration.png",
+        "alt": "",
+        "w": 72,
+        "h": 72
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_807494_563344.png?v=23832",
+        "alt": "$0.88",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_497634_978888_420129.png?v=71951",
+        "alt": "$4 or $4.50",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_691725_412988.png?v=98787",
+        "alt": "Buy 1 get 1 50% off",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_113618_757649_196298.png?v=49884",
+        "alt": "Buy 2 get 1 FREE",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/wagomslores/w1187353.png",
+        "alt": "$18.99",
+        "w": 348,
+        "h": 466
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/wagomslores/w1155430.png",
+        "alt": "Buy 1 get 1 50% off",
+        "w": 464,
+        "h": 444
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_316994_317120.png?v=64387",
+        "alt": "$3.99",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/wagomslores/w1169970.png",
+        "alt": "4/$10 or $4.49 ea.",
+        "w": 464,
+        "h": 282
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_323751_323858.png?v=89099",
+        "alt": "2/$6 or $5.49 ea.",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_410509_875178_772151.png?v=64988",
+        "alt": "$11.99",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/83a8f217-a180-4f34-acc0-51709f2ff862/M_114890_121890_114891.png?v=25100",
+        "alt": "Buy 2 get 1 FREE",
+        "w": 1000,
+        "h": 1000
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/optin/1000005390.jpg",
+        "alt": "",
+        "w": 450,
+        "h": 450
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/optin/1000005385.jpg",
+        "alt": "",
+        "w": 450,
+        "h": 450
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/optin/1000005387.jpg",
+        "alt": "",
+        "w": 450,
+        "h": 450
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/optin/1000005389.jpg",
+        "alt": "",
+        "w": 450,
+        "h": 450
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/optin/1000005386.jpg",
+        "alt": "",
+        "w": 450,
+        "h": 450
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/optin/1000005388.jpg",
+        "alt": "",
+        "w": 450,
+        "h": 450
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/optin/1000005342.jpg",
+        "alt": "",
+        "w": 450,
+        "h": 450
+      },
+      {
+        "src": "https://wag-images-prod.przone.net/80x100/w1160511.png",
+        "alt": "",
+        "w": 80,
+        "h": 100
+      },
+      {
+        "src": "https://cdn.cpnscdn.com/static.coupons.com/ext/bussys/cpa/pod/61/205/6261205_07d5fbc9-39eb-48b6-bb3d-6923587aa2bf_high.jpg",
+        "alt": "",
+        "w": 768,
+        "h": 768
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/sp/logo-mywag.png",
+        "alt": "",
+        "w": 226,
+        "h": 93
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20250803_HP_Tertiary_Image_Card_1.jpg",
+        "alt": "",
+        "w": 576,
+        "h": 324
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20250803_HP_Tertiary_Image_Card_2.jpg",
+        "alt": "",
+        "w": 576,
+        "h": 324
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20250907_HP_Tertiary_Image_Card_3_3up.jpg",
+        "alt": "",
+        "w": 664,
+        "h": 373
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20250803_HP_Tertiary_Image_Card_4_Targeted.jpg",
+        "alt": "",
+        "w": 576,
+        "h": 324
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20260906_HP_FeaturedCategories_GroupIcon_Category1_Halloween.jpg",
+        "alt": "",
+        "w": 672,
+        "h": 672
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_2.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_3.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_4.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_5.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_6.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_7.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_8.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_9.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_10.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20260215_HP_FeaturedCategories_GroupIcon_Category_12_HHC.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_12.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_13.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_14.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_17.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_18.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/content/dam/connectedassets/walgreens/us/en/homepage/images/20251228_HP_FeaturedCategories_GroupIcon_Category_19.jpg",
+        "alt": "",
+        "w": 480,
+        "h": 480
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/sp/waglogo/WAG_Signature_logo_RGB.png",
+        "alt": "Walgreens Logo",
+        "w": 720,
+        "h": 150
+      },
+      {
+        "src": "https://www.walgreens.com/images/adaptive/online-privacy-security/icon_toggle_transparent.png",
+        "alt": "CCPA Opt-Out Icon",
+        "w": 109,
+        "h": 53
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/e56ed7f6-6f9b-4d8c-b480-6fd18a73178b/baf15292-d50a-44f4-9bfe-e2af185b8a0d/965a9634-ca58-461f-a8f9-c86a04fa272b/W_logo_RGB.png",
+        "alt": "Company Logo",
+        "w": 253,
+        "h": 164
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      }
+    ],
+    "allImgCount": 88,
+    "cssBackgrounds": [],
+    "modals": [
+      "Find a Walgreens locationUse my locationView on mapInclude pharmacy-only locationsEnter city, state or ZIP code or Use my location",
+      "Oops! We are unable to clip your coupons. To clip coupons, you'll need a myWalgreens membership. It looks like you still have a Balance Rewards Membership, which no longer supported. We can easily set up with a myWalgreens membership, using all the info you've already given us. Join FREE now",
+      "Oops! We are unable to clip your coupons. To clip coupons, you'll need a myWalgreens membership. It looks like you still have a Balance Rewards Membership, which no longer supported. We can easily set up with a myWalgreens membership, using all the info you've already given us. Join FREE now",
+      "Data PreferencesOpt-Out Preference Signal HonoredOverviewSale and SharingSensitive InformationPrivacy PolicyOverviewConsumer RightsYou trust us with your health and wellness needs, and we take that responsibility seriously. That includes making sure your data is safe and secure, and that you have control. Recent updates to state privacy laws provide consumers with more transparency and options related to their data. California, Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Maryland, Minnesota, Montana, Nebraska, New Hampshire, New Jersey, Oregon, Rhode Island, Tennessee, Texas, Utah, Virginia, and Washington consumers can, among other things, request a report of their data and how it has been used or request data deletion by clicking on “Submit data request” below and following the prompts. To opt out of the sale or sharing of your data, select the “Sale and Sharing” tab. To limit the use and disclosure of your sensitive data, select the “Sensitive Information” tab. Submit data request For more information on the type of data we collect and how we use it, as well as your rights as a consumer, visit our Online Privacy & Security Policy. Washington Consumers: For more information on the type of \"Consumer Health Data\" we collect and how we use it, as well as your rights as a consumer, visit our Washington Consumer Health Privacy Policy.Sale and Sharing Sale and Sharing Opt-Out DisabledBrowser Level Opt-outTo disable advertising cookies and opt-out of the sale or sharing of your data at a browser level, update your browser settings or select \"Opt-out Enabled\" in the toggle above and click \"Save preferences\" below. Note, if you have an opt-out preference signal enabled on your browser or device, Walgreens will seek to honor that signal as a request to opt-out of the sale and sharing of your data at a browser level and the toggle above should display \"Opt-out Enabled\" without further action and a banner displaying \"Opt-Out Preference Signal Honored\" should also appear.\"Opt-out Disabled\" means you are allowing advertising cookies at a browser level. Advertising cookies are used by Walgreens, in collaboration with our advertising partners, to identify your preferences and interests and provide you with a personalized experience. Data collected through advertising cookies are based on uniquely identifying your browser and device.\"Opt-out Enabled\" means you are blocking advertising cookies and opting-out of the sale of your data at a browser level.Clearing your cookies at any time or moving the toggle back to \"Opt-out Disabled\" will undo preferences saved here and reenable advertising cookies. To re-save preferences, please return to this screen after clearing your cookies. Also, your preferences may not be saved if you are using a private mode in your web browser.Please note: Required cookies are used when saving your settings and preferences, when you log in and out of your account, and for other basic site functions. Required cookies are necessary for the website to function and cannot be disabled.Offline Opt-outTo opt-out of offline sales or sharing of your data, click on \"Submit data request\" below and follow the prompts.Please note: Opting-out of the sale and sharing of your data means that if you are a myWalgreens™ member, you will no longer receive personalized offers.Submit data requestSensitive Information Sensitive Information Opt-Out DisabledBrowser Level LimitingTo limit the use and disclosure of your sensitive data at a browser level, update your browser settings or select \"Opt-out Enabled\" in the toggle above and click \"Save preferences\" below.\"Opt-out Disabled\" means you are allowing the use and disclosure of your sensitive data at a browser level. \"Opt-out Enabled\" means you are blocking the use and disclosure of your sensitive data at a browser level.Please note: Clearing your cookies at any time or moving the toggle back to \"Opt-out Disabled\" will undo preferences saved here. To re-save preferences, please return to this screen after clearing your cookies. Also, your preferences may not be saved if you are using a private mode in your web browser.Offline LimitingTo submit a request to limit the offline use and disclosure of your sensitive data, click on \"Submit data request\" below and follow the prompts.Submit data requestConsumer rights related to sensitive data vary by state. Visit our Privacy Policy for more information.Online Privacy & SecurityPrivacy PolicyAlways ActiveFor more information on the type of data we collect and how we use it, as well as your rights as a consumer, visit our Online Privacy & Security Policy. Washington Consumers: For more information on the type of \"Consumer Health Data\" we collect and how we use it, as well as your rights as a consumer, visit our Washington Consumer Health Privacy Policy.Back ButtonCookie List Filter ButtonConsent Leg.Interest checkbox label label checkbox label label checkbox label labelClear checkbox label labelApply CancelSave preferences Allow All"
+    ],
+    "videos": [],
+    "iframes": [
+      {
+        "src": "https://1bfb2b5601e21a9cddb4d8bae3a3ce6e.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html",
+        "title": "3rd party ad content"
+      }
+    ]
+  },
+  "customProps": {
+    "--palette-brand-white": "#fff",
+    "--palette-brand-neutral": "#f4f2ef",
+    "--palette-brand-clay": "#ded5d0",
+    "--palette-brand-charcoal": "#413d3c",
+    "--palette-brand-crimson": "#a32a33",
+    "--palette-brand-brand-red": "#e62600",
+    "--palette-feedback-info-light": "#e2e7f2",
+    "--palette-feedback-info": "#296ea3",
+    "--palette-feedback-warning-light": "#f4e3da",
+    "--palette-feedback-warning": "#bc5724",
+    "--palette-feedback-success-light": "#d4ebdf",
+    "--palette-feedback-success": "#00853e",
+    "--palette-feedback-error-light": "#f7e9e9",
+    "--palette-feedback-error": "#a32a33",
+    "--palette-gray-100": "#d9dada",
+    "--palette-gray-200": "#a5aaaa",
+    "--palette-gray-300": "#989090",
+    "--palette-gray-400": "#707575",
+    "--palette-gray-500": "#414646",
+    "--palette-gray-600": "#0a1414",
+    "--surface-container-default": "#f4f2ef",
+    "--surface-container-default-ondark": "#413d3c",
+    "--surface-container-white": "#fff",
+    "--surface-container-white-ondark": "#413d3c",
+    "--surface-button-primary": "#a32a33",
+    "--surface-button-primary-ondark": "#fff",
+    "--surface-button-primary-hover": "#fff",
+    "--surface-button-primary-hover-ondark": "#413d3c",
+    "--surface-button-secondary": "#fff",
+    "--surface-button-secondary-ondark": "#413d3c",
+    "--surface-button-secondary-hover": "#a32a33",
+    "--surface-button-secondary-hover-ondark": "#fff",
+    "--surface-button-selected": "#f4f2ef",
+    "--surface-button-selected-ondark": "#f4f2ef",
+    "--surface-feedback-success": "#d4ebdf",
+    "--surface-feedback-success-ondark": "#d4ebdf",
+    "--surface-feedback-error": "#f7e9e9",
+    "--surface-feedback-error-ondark": "#f7e9e9",
+    "--surface-feedback-warning": "#f4e3da",
+    "--surface-feedback-warning-ondark": "#f4e3da",
+    "--surface-feedback-info": "#e2e7f2",
+    "--surface-feedback-info-ondark": "#e2e7f2",
+    "--surface-input-default": "#fff",
+    "--surface-input-default-ondark": "#413d3c",
+    "--surface-input-error": "#f7e9e9",
+    "--surface-input-error-ondark": "#f7e9e9",
+    "--surface-input-selected": "#413d3c",
+    "--surface-input-selected-ondark": "#fff",
+    "--surface-icon-default": "#413d3c",
+    "--surface-icon-default-ondark": "#fff",
+    "--surface-icon-highlight": "#a32a33",
+    "--surface-icon-highlight-ondark": "#d9dada",
+    "--surface-icon-info": "#296ea3",
+    "--surface-icon-info-ondark": "#e2e7f2",
+    "--text-body-primary": "#413d3c",
+    "--text-body-primary-ondark": "#fff",
+    "--text-body-error": "#a32a33",
+    "--text-body-error-ondark": "#f7e9e9",
+    "--text-body-info": "#296ea3",
+    "--text-body-info-ondark": "#e2e7f2",
+    "--text-body-success": "#00853e",
+    "--text-body-success-ondark": "#00853e",
+    "--text-body-warning": "#bc5724",
+    "--text-body-warning-ondark": "#bc5724",
+    "--text-link-default": "#413d3c",
+    "--text-link-default-ondark": "#fff",
+    "--text-link-pressed": "#707575",
+    "--text-link-pressed-ondark": "#a5aaaa",
+    "--text-button-primary": "#fff",
+    "--text-button-primary-ondark": "#413d3c",
+    "--text-button-secondary": "#413d3c",
+    "--text-button-secondary-ondark": "#fff",
+    "--border-input-default": "#707575",
+    "--border-input-default-ondark": "#d9dada",
+    "--border-input-active": "#413d3c",
+    "--border-input-active-ondark": "#fff",
+    "--border-input-error": "#a32a33",
+    "--border-input-error-ondark": "#f7e9e9",
+    "--border-input-success": "#00853e",
+    "--border-input-success-ondark": "#d4ebdf",
+    "--border-button-primary": "#a32a33",
+    "--border-button-primary-ondark": "#fff",
+    "--border-button-secondary": "#413d3c",
+    "--border-button-secondary-ondark": "#fff",
+    "--border-button-focus": "#0a1414",
+    "--border-button-focus-ondark": "#fff",
+    "--border-divider": "#989090",
+    "--border-divider-ondark": "#fff"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 20,
+    "mainTextLen": 6541,
+    "realImageCount": 79,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/gampad/ads",
+        "query": [
+          "abxe",
+          "adfs",
+          "adks",
+          "adxs",
+          "adys",
+          "bc",
+          "bih",
+          "biw",
+          "btvi",
+          "correlator",
+          "cust_params",
+          "dids",
+          "dlt",
+          "dmc",
+          "dt",
+          "eid",
+          "enc_prev_ius",
+          "frm",
+          "fws",
+          "gdfp_req",
+          "idt",
+          "ifi",
+          "impl",
+          "iu_parts",
+          "lmt",
+          "msz",
+          "nvt",
+          "ohw",
+          "oid",
+          "output",
+          "prev_iu_szs",
+          "prev_scp",
+          "psz",
+          "ptt",
+          "pvsid",
+          "rdp",
+          "sc",
+          "scr_x",
+          "scr_y",
+          "sfv",
+          "u_ah",
+          "u_aw",
+          "u_cd",
+          "u_h",
+          "u_his",
+          "u_sd",
+          "u_tz",
+          "u_w",
+          "uach",
+          "ucis",
+          "url",
+          "vis",
+          "vrg"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 20335,
+        "hits": 1,
+        "example": "https://pagead2.googlesyndication.com/gampad/ads",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.walgreens.com",
+        "path": "/Bi_YX/4YCVb/iR/RsV1/MYr-/YpummDztS6SwVc3Naw/YWleKRseAg/R3RXeD/1TVlQ",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 201,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.walgreens.com/Bi_YX/4YCVb/iR/RsV1/MYr-/YpummDztS6SwVc3Naw/YWleKRseAg/R3RXeD/1TVlQ",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/browse/v1/csrf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 126,
+        "hits": 1,
+        "example": "https://www.walgreens.com/browse/v1/csrf",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/fulfillment/v1/bundle",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 97,
+        "hits": 1,
+        "example": "https://www.walgreens.com/fulfillment/v1/bundle",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/bin/search/articles/dow",
+        "query": [
+          "categoryName",
+          "eventDate",
+          "storeNumber"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 4735,
+        "hits": 1,
+        "example": "https://www.walgreens.com/bin/search/articles/dow",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/sameday/v1/address",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 67,
+        "hits": 1,
+        "example": "https://www.walgreens.com/sameday/v1/address",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/892440ef-38c7-49b3-86d1-f08c1c769460/892440ef-38c7-49b3-86d1-f08c1c769460.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pcs/view",
+        "query": [
+          "adurl",
+          "sig",
+          "uach_m",
+          "urlfix",
+          "xai"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://pagead2.googlesyndication.com/pcs/view",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/cartsvc/v1/items/(count)",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 403,
+        "bytes": 411,
+        "hits": 4,
+        "example": "https://www.walgreens.com/cartsvc/v1/items/(count)",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/gen_204",
+        "query": [
+          "id",
+          "type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 204,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://pagead2.googlesyndication.com/pagead/gen_204",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.walgreens.com",
+        "path": "/offers/v1/svc/coupons/recommended",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 5175,
+        "hits": 2,
+        "example": "https://www.walgreens.com/offers/v1/svc/coupons/recommended",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/892440ef-38c7-49b3-86d1-f08c1c769460/018e7ee4-5970-7ecd-acde-0d6533537470/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_verify",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202403.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3041,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202403.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202403.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202403.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202403.1.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13599,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202403.1.0/assets/v2/otPcTab.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/locator/v1/selectedstore",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 876,
+        "hits": 2,
+        "example": "https://www.walgreens.com/locator/v1/selectedstore",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/sameday/v1/bundle",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 118,
+        "hits": 1,
+        "example": "https://www.walgreens.com/sameday/v1/bundle",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "api2.branch.io",
+        "path": "/v1/open",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 276,
+        "hits": 1,
+        "example": "https://api2.branch.io/v1/open",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id/rd",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_verify",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 311,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id/rd",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "tps-dn-ew1.doubleverify.com",
+        "path": "/event.jpg",
+        "query": [
+          "api",
+          "consid",
+          "impid",
+          "rc"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://tps-dn-ew1.doubleverify.com/event.jpg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "api2.branch.io",
+        "path": "/v1/pageview",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 28,
+        "hits": 1,
+        "example": "https://api2.branch.io/v1/pageview",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/ping",
+        "query": [
+          "e"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://pagead2.googlesyndication.com/pagead/ping",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ep1.adtrafficquality.google",
+        "path": "/getconfig/sodar",
+        "query": [
+          "sjk",
+          "st",
+          "sv",
+          "tid",
+          "tv"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 13563,
+        "hits": 1,
+        "example": "https://ep1.adtrafficquality.google/getconfig/sodar",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "target.walgreens.com",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://target.walgreens.com/rest/v1/delivery",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/common/v1/headerInfo",
+        "query": [
+          "o"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 153,
+        "hits": 2,
+        "example": "https://www.walgreens.com/common/v1/headerInfo",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "www.walgreens.com",
+        "path": "/dthandler/rb_bf21859hft",
+        "query": [
+          "ai",
+          "av",
+          "bc",
+          "co",
+          "cr",
+          "cy",
+          "en",
+          "end",
+          "pv",
+          "qc",
+          "sc",
+          "si",
+          "ss",
+          "st",
+          "ty"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 66,
+        "hits": 5,
+        "example": "https://www.walgreens.com/dthandler/rb_bf21859hft",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/cart/view-ui",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 403,
+        "bytes": 387,
+        "hits": 1,
+        "example": "https://www.walgreens.com/cart/view-ui",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "resources.digital-cloud-west.medallia.com",
+        "path": "/wdcwest/{n}/onsite/onsiteData1786277206288.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 4624,
+        "hits": 1,
+        "example": "https://resources.digital-cloud-west.medallia.com/wdcwest/378975/onsite/onsiteData1786277206288.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "smetrics.walgreens.com",
+        "path": "/b/ss/walgrns/{n}/JS-2.27.0-LGU4/s65376520591455",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "status": 200,
+        "bytes": 97,
+        "hits": 1,
+        "example": "https://smetrics.walgreens.com/b/ss/walgrns/10/JS-2.27.0-LGU4/s65376520591455",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "analytics-fe.digital-cloud-west.medallia.com",
+        "path": "/api/web/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://analytics-fe.digital-cloud-west.medallia.com/api/web/events",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.mczbf.com",
+        "path": "/{n}/pageInfo",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "status": 200,
+        "bytes": 68,
+        "hits": 1,
+        "example": "https://www.mczbf.com/330175400830/pageInfo",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "track.coherentpath.com",
+        "path": "/v1/batches",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 202,
+        "bytes": 462,
+        "hits": 1,
+        "example": "https://track.coherentpath.com/v1/batches",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 302,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=7895413169247687835;_dc_ptd=ChEI8MKz1QYQxpjc9v308YnlARIfAP8HzWG2n1wUDnOQ6dJ_GmPTebyBKPFxL1buGR9eQg;_dc_time=1789741729;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 42,
+        "hits": 1,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=7895413169247687835;_dc_ptd=ChEI8MKz1QYQxpjc9v308YnlARIfAP8HzWG2n1wUDnOQ6dJ_GmPTebyBKPFxL1buGR9eQg;_dc_time=1789741729;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "count": 27
+      },
+      {
+        "host": "pagead2.googlesyndication.com",
+        "count": 3
+      },
+      {
+        "host": "securepubads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "cdn.doubleverify.com",
+        "count": 2
+      },
+      {
+        "host": "resources.digital-cloud-west.medallia.com",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "dok.js-cdn.dynatrace.com",
+        "count": 1
+      },
+      {
+        "host": "s2.go-mpulse.net",
+        "count": 1
+      },
+      {
+        "host": "cdn.branch.io",
+        "count": 1
+      },
+      {
+        "host": "tpc.googlesyndication.com",
+        "count": 1
+      },
+      {
+        "host": "app.link",
+        "count": 1
+      },
+      {
+        "host": "tps.doubleverify.com",
+        "count": 1
+      },
+      {
+        "host": "ep2.adtrafficquality.google",
+        "count": 1
+      },
+      {
+        "host": "d.us.criteo.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 1
+      },
+      {
+        "host": "mihvea1f.micpn.com",
+        "count": 1
+      },
+      {
+        "host": "dynamic.criteo.com",
+        "count": 1
+      },
+      {
+        "host": "track.coherentpath.com",
+        "count": 1
+      },
+      {
+        "host": "d.criteo.com",
+        "count": 1
+      },
+      {
+        "host": "www.mczbf.com",
+        "count": 1
+      },
+      {
+        "host": "sslwidget.criteo.com",
+        "count": 1
+      },
+      {
+        "host": "widget.us.criteo.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "react",
+      "aem-sites"
+    ],
+    "forms": [
+      {
+        "action": "https://www.walgreens.com/",
+        "hasAction": false,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "ntt-placeholder"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 27,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 14,
+      "thirdPartyEndpoints": 27,
+      "thirdPartyScriptHosts": 25,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

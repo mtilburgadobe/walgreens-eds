@@ -1,0 +1,16 @@
+{
+  "slug": "index",
+  "sourceUrl": "https://www.walgreens.com/",
+  "fidelityTier": "archetype",
+  "archetypeSource": "stardust/prototypes/index-proposed.html",
+  "gatesPassed": [
+    "html-parse",
+    "content-model-lint",
+    "mobile-adapt-audit"
+  ],
+  "migrationDecisions": [
+    "homepage-only",
+    "source-image-urls-temporary",
+    "dynamic-services-handed-off"
+  ]
+}

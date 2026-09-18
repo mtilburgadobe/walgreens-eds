@@ -1,0 +1,10 @@
+{"ts":"2026-09-18T14:18:03.023Z","skill":"replica","phase":"extract","event":"start","detail":"Bounded Walgreens homepage pilot"}
+{"ts":"2026-09-18T14:28:51.628Z","skill":"replica","phase":"extract","event":"end","detail":"Homepage captured with Playwright; 14 same-site data endpoints observed"}
+{"ts":"2026-09-18T14:35:00.000Z","skill":"replica","phase":"preserve","event":"end","detail":"Pure replica; no intentional design changes"}
+{"ts":"2026-09-18T14:40:00.000Z","skill":"replica","phase":"recreate","event":"end","detail":"Semantic homepage archetype and EDS blocks created"}
+{"ts":"2026-09-18T14:48:00.000Z","skill":"replica","phase":"source-fidelity-gate","event":"blocked","detail":"Pixel diff 36.61% at 1440 and 49.91% at 360 exceeds 10% pass bar"}
+{"ts":"2026-09-18T14:55:00.000Z","skill":"deploy","phase":"local-qa","event":"end","detail":"32/32 QA checks; 99/99 authored texts editable; lint passed"}
+{"ts":"2026-09-18T14:55:01.000Z","skill":"deploy","phase":"delivery","event":"blocked","detail":"DA deferred, source assets not imported, source-fidelity gate failed"}
+{"ts":"2026-09-18T14:55:45.000Z","skill":"deploy","phase":"da-upload","event":"end","detail":"Uploaded and previewed index, nav, and footer in mtilburgadobe/walgreens-eds"}
+{"ts":"2026-09-18T14:58:00.000Z","skill":"deploy","phase":"preview-verify","event":"end","detail":"32/32 QA, 99/99 editable, 44 images with no about:error, AI readability 100%"}
+{"ts":"2026-09-18T14:58:01.000Z","skill":"deploy","phase":"publish","event":"blocked","detail":"Production publish withheld because source-fidelity pixel gate exceeds 10%"}

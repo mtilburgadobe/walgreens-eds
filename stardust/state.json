@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "site": {
+    "originUrl": "https://www.walgreens.com/"
+  },
+  "mode": "replica",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.walgreens.com/",
+      "type": "homepage",
+      "status": "migrated",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html",
+      "provenance": {
+        "renderedBy": "playwright",
+        "capturedAt": "2026-09-18T14:28:51.628Z"
+      }
+    }
+  ],
+  "migrate": {
+    "selfContained": false,
+    "outputDir": "stardust/migrated",
+    "reason": "Pilot intentionally retains source image URLs until DA media import."
+  },
+  "replicaGate": {
+    "status": "failed",
+    "desktopPixelDiffPercent": 36.61,
+    "desktopHeightDeltaPx": 0,
+    "mobilePixelDiffPercent": 49.91,
+    "mobileHeightDeltaPx": 230,
+    "passBarPercent": 10,
+    "report": "stardust/replica/gate-report.md"
+  },
+  "deploy": {
+    "status": "previewed",
+    "daDeferred": false,
+    "org": "mtilburgadobe",
+    "repo": "walgreens-eds",
+    "branch": "main",
+    "previewUrl": "https://main--walgreens-eds--mtilburgadobe.aem.page/",
+    "published": false,
+    "publishBlockedBy": "Source-fidelity pixel gate exceeds the 10% pass bar."
+  }
+}

@@ -1,0 +1,12 @@
+current/assets/
+replica/gates/
+migrated/assets/
+rollout/qa/
+.work/
+*.png
+*.webp
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webm

@@ -1,0 +1,973 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 1,
+    "concurrency": 1
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.walgreens.com/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "dynamicSurface": {
+    "pages": 1,
+    "pagesWithSameSiteData": 1,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 1,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "c.go-mpulse.net",
+        "path": "/api/config.json",
+        "query": [
+          "acao",
+          "ak.ai",
+          "d",
+          "key",
+          "plugins",
+          "si",
+          "sl",
+          "t",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.go-mpulse.net/api/config.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/gampad/ads",
+        "query": [
+          "abxe",
+          "adfs",
+          "adks",
+          "adxs",
+          "adys",
+          "bc",
+          "bih",
+          "biw",
+          "btvi",
+          "correlator",
+          "cust_params",
+          "dids",
+          "dlt",
+          "dmc",
+          "dt",
+          "eid",
+          "enc_prev_ius",
+          "frm",
+          "fws",
+          "gdfp_req",
+          "idt",
+          "ifi",
+          "impl",
+          "iu_parts",
+          "lmt",
+          "msz",
+          "nvt",
+          "ohw",
+          "oid",
+          "output",
+          "prev_iu_szs",
+          "prev_scp",
+          "psz",
+          "ptt",
+          "pvsid",
+          "rdp",
+          "sc",
+          "scr_x",
+          "scr_y",
+          "sfv",
+          "u_ah",
+          "u_aw",
+          "u_cd",
+          "u_h",
+          "u_his",
+          "u_sd",
+          "u_tz",
+          "u_w",
+          "uach",
+          "ucis",
+          "url",
+          "vis",
+          "vrg"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/gampad/ads",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.walgreens.com",
+        "path": "/Bi_YX/4YCVb/iR/RsV1/MYr-/YpummDztS6SwVc3Naw/YWleKRseAg/R3RXeD/1TVlQ",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/Bi_YX/4YCVb/iR/RsV1/MYr-/YpummDztS6SwVc3Naw/YWleKRseAg/R3RXeD/1TVlQ",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/browse/v1/csrf",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/browse/v1/csrf",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/fulfillment/v1/bundle",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/fulfillment/v1/bundle",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/bin/search/articles/dow",
+        "query": [
+          "categoryName",
+          "eventDate",
+          "storeNumber"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/bin/search/articles/dow",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/sameday/v1/address",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/sameday/v1/address",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/892440ef-38c7-49b3-86d1-f08c1c769460/892440ef-38c7-49b3-86d1-f08c1c769460.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pcs/view",
+        "query": [
+          "adurl",
+          "sig",
+          "uach_m",
+          "urlfix",
+          "xai"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pcs/view",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/cartsvc/v1/items/(count)",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/cartsvc/v1/items/(count)",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/gen_204",
+        "query": [
+          "id",
+          "type"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pagead/gen_204",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.walgreens.com",
+        "path": "/offers/v1/svc/coupons/recommended",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/offers/v1/svc/coupons/recommended",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/892440ef-38c7-49b3-86d1-f08c1c769460/018e7ee4-5970-7ecd-acde-0d6533537470/en.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_verify",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://dpm.demdex.net/id",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202403.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202403.1.0/assets/otFlat.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202403.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202403.1.0/assets/otCommonStyles.css",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202403.1.0/assets/v2/otPcTab.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202403.1.0/assets/v2/otPcTab.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/locator/v1/selectedstore",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/locator/v1/selectedstore",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/sameday/v1/bundle",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/sameday/v1/bundle",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api2.branch.io",
+        "path": "/v1/open",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api2.branch.io/v1/open",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id/rd",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_verify",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://dpm.demdex.net/id/rd",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "tps-dn-ew1.doubleverify.com",
+        "path": "/event.jpg",
+        "query": [
+          "api",
+          "consid",
+          "impid",
+          "rc"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://tps-dn-ew1.doubleverify.com/event.jpg",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "api2.branch.io",
+        "path": "/v1/pageview",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api2.branch.io/v1/pageview",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "pagead2.googlesyndication.com",
+        "path": "/pagead/ping",
+        "query": [
+          "e"
+        ],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://pagead2.googlesyndication.com/pagead/ping",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ep1.adtrafficquality.google",
+        "path": "/getconfig/sodar",
+        "query": [
+          "sjk",
+          "st",
+          "sv",
+          "tid",
+          "tv"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ep1.adtrafficquality.google/getconfig/sodar",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "target.walgreens.com",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://target.walgreens.com/rest/v1/delivery",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/common/v1/headerInfo",
+        "query": [
+          "o"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/common/v1/headerInfo",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.walgreens.com",
+        "path": "/dthandler/rb_bf21859hft",
+        "query": [
+          "ai",
+          "av",
+          "bc",
+          "co",
+          "cr",
+          "cy",
+          "en",
+          "end",
+          "pv",
+          "qc",
+          "sc",
+          "si",
+          "ss",
+          "st",
+          "ty"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/dthandler/rb_bf21859hft",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.walgreens.com",
+        "path": "/cart/view-ui",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.walgreens.com/cart/view-ui",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "resources.digital-cloud-west.medallia.com",
+        "path": "/wdcwest/{n}/onsite/onsiteData1786277206288.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://resources.digital-cloud-west.medallia.com/wdcwest/378975/onsite/onsiteData1786277206288.json",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "smetrics.walgreens.com",
+        "path": "/b/ss/walgrns/{n}/JS-2.27.0-LGU4/s65376520591455",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/x-javascript",
+        "sameSite": true,
+        "example": "https://smetrics.walgreens.com/b/ss/walgrns/10/JS-2.27.0-LGU4/s65376520591455",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics-fe.digital-cloud-west.medallia.com",
+        "path": "/api/web/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://analytics-fe.digital-cloud-west.medallia.com/api/web/events",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dma_cps",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.mczbf.com",
+        "path": "/{n}/pageInfo",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://www.mczbf.com/330175400830/pageInfo",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "track.coherentpath.com",
+        "path": "/v1/batches",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://track.coherentpath.com/v1/batches",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "ad.doubleclick.net",
+        "path": "/activity;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/activity;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.google.com",
+        "path": "/gmp/conversion/_dc_unique_id=7895413169247687835;_dc_ptd=ChEI8MKz1QYQxpjc9v308YnlARIfAP8HzWG2n1wUDnOQ6dJ_GmPTebyBKPFxL1buGR9eQg;_dc_time=1789741729;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://www.google.com/gmp/conversion/_dc_unique_id=7895413169247687835;_dc_ptd=ChEI8MKz1QYQxpjc9v308YnlARIfAP8HzWG2n1wUDnOQ6dJ_GmPTebyBKPFxL1buGR9eQg;_dc_time=1789741729;dc_pre=CL3JosCr-JYDFYENZgkd1gEYBQ;src=13040738;type=omnitag;cat=awarenes;rcb=13;ord=1098988348658;npa=1;auiddc=423975395.1789741729;u1=www.walgreens.com%2F;u10=;u11=;u12=;u13=18363115646669814093653000901023832950;u14=null;u2=Walgreens.com%20Home%20Page;u3=Walgreens.com%20Home%20Page;u4=undefined;u5=;u6=undefined;u7=;u8=undefined;u9=;uaa=arm;uab=64;uafvl=HeadlessChrome%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0%7CChromium%3B153.0.8010.12;uamb=0;uam=;uap=macOS;uapv=26.6.2;uaw=0;pscdl=noapi;frm=0;_tu=IFA;gtm=45fe69g1v9190347438za200zb883067571zd883067571xecxf1;gcd=13l3l3l2l1l1;dma_cps=a;dma=1;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433;epver=2;dc_random=1789741729_tMsy2J0I-lfxVLADNtQztlbWEJe0Fumzmw;~oref=https%3A%2F%2Fwww.walgreens.com%2F",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "pagead2.googlesyndication.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "securepubads.g.doubleclick.net",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.doubleverify.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "resources.digital-cloud-west.medallia.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "rum.hlx.page",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "dok.js-cdn.dynatrace.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "s2.go-mpulse.net",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.branch.io",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "tpc.googlesyndication.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "app.link",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "tps.doubleverify.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "ep2.adtrafficquality.google",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "d.us.criteo.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "mihvea1f.micpn.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "dynamic.criteo.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "track.coherentpath.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "d.criteo.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "www.mczbf.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "sslwidget.criteo.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "widget.us.criteo.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "react",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "hint": "aem-sites",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://www.walgreens.com/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "ntt-placeholder"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ]
+  }
+}
