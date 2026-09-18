@@ -28,6 +28,9 @@ Structural remediation commit `726f5ee` is pushed to `origin/main`.
 `content/index.html` was uploaded to DA and previewed without publishing.
 The authenticated DA source contains the corrected primary `Clip` CTA, and
 the preview root and `/index.plain.html` return 200 with no `about:error`.
+Commit `b267b8f` restores the authored section variants through DA-native
+section metadata. The deployed Beauty Savings Event section now resolves to
+`deep` with the expected `#62002e` background at desktop and mobile.
 
 - local QA: 34 checks passed, 0 failed
 - Experience Workspace: 123/123 authored texts editable
