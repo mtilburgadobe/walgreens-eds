@@ -1,7 +1,9 @@
+import addMobileDamRendition from '../../scripts/walgreens-images.js';
+
 export default function decorate(block) {
   const list = document.createElement('ul');
   [...block.children].forEach((row) => {
-    const media = row.querySelector('picture, img');
+    const media = addMobileDamRendition(row.querySelector('picture, img'));
     const item = document.createElement('li');
     const card = document.createElement('div');
     if (media) card.append(media);

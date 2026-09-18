@@ -23,7 +23,7 @@ export default async function decorate(block) {
   nav.setAttribute('aria-label', 'Primary');
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
-  ['brand', 'sections', 'tools'].forEach((name, index) => {
+  ['utility', 'brand', 'sections', 'tools', 'quick'].forEach((name, index) => {
     if (nav.children[index]) nav.children[index].classList.add(`nav-${name}`);
   });
 
@@ -31,6 +31,17 @@ export default async function decorate(block) {
   if (brandLink) {
     brandLink.className = 'nav-logo';
     brandLink.closest('p')?.classList.remove('button-wrapper');
+  }
+
+  const searchHost = nav.querySelector('.nav-tools p:first-of-type');
+  if (searchHost) {
+    const label = searchHost.textContent.trim() || 'Search';
+    searchHost.textContent = '';
+    const search = document.createElement('input');
+    search.type = 'search';
+    search.setAttribute('aria-label', 'Search Walgreens');
+    search.placeholder = label;
+    searchHost.append(search);
   }
 
   const toggle = document.createElement('button');

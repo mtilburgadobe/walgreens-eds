@@ -6,7 +6,7 @@
 :root {
   --wag-red: #e62600;
   --wag-crimson: #a32a33;
-  --wag-deep: #72002e;
+  --wag-deep: #62002e;
   --wag-ink: #413d3c;
   --wag-paper: #fff;
   --wag-warm: #f4f2ef;
@@ -18,18 +18,18 @@
   --text-color: var(--wag-ink);
   --link-color: var(--wag-ink);
   --link-hover-color: var(--wag-crimson);
-  --body-font-family: arial, helvetica, sans-serif;
-  --heading-font-family: georgia, "Times New Roman", serif;
-  --body-font-size-m: 15px;
+  --body-font-family: inter, arial, helvetica, sans-serif;
+  --heading-font-family: tiempos-headline, georgia, "Times New Roman", serif;
+  --body-font-size-m: 16px;
   --body-font-size-s: 13px;
   --body-font-size-xs: 11px;
-  --heading-font-size-xxl: 30px;
-  --heading-font-size-xl: 30px;
+  --heading-font-size-xxl: 36px;
+  --heading-font-size-xl: 36px;
   --heading-font-size-l: 22px;
   --heading-font-size-m: 18px;
   --heading-font-size-s: 16px;
   --heading-font-size-xs: 14px;
-  --nav-height: 174px;
+  --nav-height: 232px;
   --content-max-width: 1392px;
 }
 
@@ -50,7 +50,7 @@ body {
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
-  line-height: 1.35;
+  line-height: 1.5;
 }
 
 body.appear {
@@ -130,6 +130,10 @@ main .section {
   padding: 33px 24px;
 }
 
+main .section:not(.hero-container, .promo-banner-container) {
+  padding-bottom: 0;
+}
+
 main .section > div {
   width: 100%;
   max-width: var(--content-max-width);
@@ -162,6 +166,53 @@ main .section.deep > div {
 
 main .section.compact {
   padding-top: 8px;
+}
+
+main .product-rail-container > .default-content-wrapper,
+main .category-grid-container > .default-content-wrapper {
+  position: relative;
+}
+
+main .product-rail-container > .default-content-wrapper > p:last-child,
+main .category-grid-container > .default-content-wrapper > p:last-child {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (width >= 641px) {
+  main .section.deep {
+    padding-bottom: 13px;
+  }
+
+  main .section.wellness {
+    padding-top: 11px;
+    padding-bottom: 15px;
+  }
+
+  main .section:has(.promo-cards.photo) {
+    padding-bottom: 4px;
+  }
+
+  main .section:has(.product-rail.deals) {
+    padding-bottom: 44px;
+  }
+
+  main .section:has(.promo-cards.explore) {
+    padding-bottom: 29px;
+  }
+
+  main .section.category-grid-container {
+    padding-bottom: 128px;
+  }
+}
+
+main .category-grid-container > .default-content-wrapper > p:last-child {
+  top: auto;
+  bottom: -22px;
 }
 
 p.button-wrapper {
@@ -238,17 +289,60 @@ a .prosemirror-editor a:any-link {
 
 @media (width <= 640px) {
   :root {
-    --nav-height: 151px;
-    --heading-font-size-xxl: 22px;
-    --heading-font-size-xl: 23px;
+    --nav-height: 295px;
+    --heading-font-size-xxl: 28px;
+    --heading-font-size-xl: 28px;
     --heading-font-size-l: 19px;
   }
 
   main .section {
-    padding: 25px 10px;
+    padding: 25px 16px;
   }
 
   main .section.promo-banner-container {
     padding-top: 10px;
+  }
+
+  main .section.category-grid-container {
+    padding-bottom: 156px;
+  }
+
+  main .section:has(.promo-cards.health) {
+    padding-bottom: 21px;
+  }
+
+  main .section:is(
+    :has(.promo-cards.health),
+    .deep,
+    .wellness,
+    :has(.promo-cards.photo)
+  ) > .default-content-wrapper {
+    transform: translateY(-7px);
+  }
+
+  main .section.deep {
+    padding-bottom: 8px;
+  }
+
+  main .section.wellness {
+    padding-bottom: 16px;
+  }
+
+  main .section:has(.promo-cards.photo) {
+    padding-bottom: 1px;
+  }
+
+  main .section:has(.promo-banner.halloween) {
+    padding-bottom: 42px;
+  }
+
+  main .section:has(.promo-cards.explore) {
+    padding-bottom: 1px;
+  }
+
+  h2 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 30px;
   }
 }

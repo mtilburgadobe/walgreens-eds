@@ -1,0 +1,13 @@
+{
+  "width": 360,
+  "sourceHeight": 5218,
+  "candidateHeight": 5226,
+  "heightDelta": -8,
+  "differingPixels": 170880,
+  "pct": 9.1,
+  "threshold": 10,
+  "pass": true,
+  "source": "source.png",
+  "candidate": "candidate.png",
+  "diff": "diff.png"
+}

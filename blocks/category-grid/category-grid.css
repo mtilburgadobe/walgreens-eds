@@ -1,7 +1,7 @@
 .category-grid > ul {
   display: grid;
   grid-template-columns: repeat(10, minmax(0, 1fr));
-  gap: 12px;
+  gap: 14px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -12,6 +12,16 @@
   color: var(--wag-ink);
   text-align: center;
   text-decoration: none;
+}
+
+@media (width >= 641px) {
+  .category-grid > ul {
+    gap: 0;
+  }
+
+  .category-grid li {
+    padding-inline: 7px;
+  }
 }
 
 .category-grid picture,
@@ -33,7 +43,17 @@
 }
 
 @media (width <= 640px) {
+  .category-grid-wrapper {
+    transform: translateY(8px);
+  }
+
   .category-grid > ul {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px 5px;
+    margin-top: 11px;
+  }
+
+  .category-grid > ul > li:nth-child(n + 7) {
+    display: none;
   }
 }

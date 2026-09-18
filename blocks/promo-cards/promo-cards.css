@@ -1,7 +1,8 @@
+/* stylelint-disable no-descending-specificity */
 .promo-cards > ul {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
+  gap: 0;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -16,16 +17,17 @@
   height: 100%;
   min-width: 0;
   flex-direction: column;
+  padding: 8px;
   overflow: hidden;
-  border: 1px solid var(--wag-border);
-  border-radius: 7px;
-  background: #fff;
+  border: 0;
+  background: transparent;
   color: var(--wag-ink);
   text-decoration: none;
 }
 
 .promo-cards .promo-card-media {
   overflow: hidden;
+  border-radius: 7px 7px 0 0;
   line-height: 0;
 }
 
@@ -43,11 +45,31 @@
 }
 
 .promo-cards.three .promo-card-media img {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
+}
+
+.promo-cards.three > ul > li:first-child .promo-card-media img {
+  aspect-ratio: 680 / 249;
+}
+
+.deep .promo-cards.three > ul > li:first-child .promo-card-media img {
+  aspect-ratio: 680 / 289;
+}
+
+.deep .promo-cards.three > ul > li:not(:first-child) .promo-card-media img {
+  aspect-ratio: 1;
+}
+
+.deep .promo-cards.three > ul > li:not(:first-child) .promo-card {
+  flex-direction: column-reverse;
+  justify-content: space-between;
 }
 
 .promo-cards .promo-card-copy {
-  padding: 12px 14px 15px;
+  flex: 1;
+  padding: 16px;
+  border-radius: 0 0 7px 7px;
+  background: #fff;
 }
 
 .promo-cards .promo-card-copy :is(h3, h4, p) {
@@ -55,25 +77,198 @@
 }
 
 .promo-cards .promo-card-copy :is(h3, h4) {
-  font: 700 16px/1.2 var(--body-font-family);
+  font: 600 22px/1.25 var(--body-font-family);
 }
 
 .promo-cards .promo-card-copy p {
-  font-size: 12px;
-  line-height: 1.35;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.promo-cards.health .promo-card {
+  height: 480px;
+}
+
+.promo-cards.health .promo-card-copy {
+  min-height: 132px;
+  background: #f3f2ee;
 }
 
 .promo-cards.photo .promo-card-copy :is(h3, h4) {
-  font: 400 24px/1.1 var(--heading-font-family);
+  font: 400 28px/1.25 var(--heading-font-family);
+}
+
+.promo-cards.three:not(.photo) .promo-card-copy :is(h3, h4) {
+  font: 400 28px/1.25 var(--heading-font-family);
+}
+
+.wellness .promo-card {
+  flex-direction: column-reverse;
+}
+
+.wellness .promo-card-copy {
+  min-height: 131px;
+  border-radius: 7px 7px 0 0;
+  background: var(--wag-deep);
+  color: #fff;
+}
+
+.wellness .promo-card-copy :is(h3, h4),
+.wellness .promo-card-copy a {
+  color: #fff;
+}
+
+.wellness .promo-card-media {
+  border-radius: 0 0 7px 7px;
+}
+
+.promo-cards.photo .promo-card {
+  flex-direction: column-reverse;
+}
+
+.promo-cards.photo .promo-card-copy {
+  min-height: 101px;
+  border-radius: 7px 7px 0 0;
+  background: #ece8e4;
+}
+
+.promo-cards.photo .promo-card-media {
+  border-radius: 0 0 7px 7px;
+}
+
+@media (width >= 641px) {
+  .promo-cards.health {
+    transform: translateY(-5px);
+  }
+
+  .deep .promo-cards.three > ul > li:not(:first-child) .promo-card-copy {
+    min-height: 155px;
+  }
+
+  .wellness .promo-card-copy {
+    min-height: 140px;
+  }
+
+  .promo-cards.explore .promo-card-media img {
+    aspect-ratio: 16 / 9;
+  }
 }
 
 @media (width <= 640px) {
+  .promo-cards.health {
+    transform: translateY(-1px);
+  }
+
   .promo-cards > ul,
   .promo-cards.three > ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .promo-cards .promo-card {
+    padding: 0;
   }
 
   .promo-cards.three > ul > li:first-child {
     grid-column: 1 / -1;
   }
+
+  .promo-cards.health .promo-card {
+    height: 392px;
+    min-height: 0;
+  }
+
+  .promo-cards.health > ul {
+    gap: 0 8px;
+  }
+
+  .promo-cards.health .promo-card-copy {
+    min-height: 232px;
+  }
+
+  .promo-cards.health .promo-card-copy :is(h3, h4) {
+    font-size: 18px;
+    line-height: 1.25;
+  }
+
+  .deep .promo-cards.three > ul > li:first-child .promo-card {
+    height: 325px;
+    min-height: 0;
+  }
+
+  .deep .promo-cards.three > ul > li:first-child .promo-card-copy {
+    min-height: 186px;
+  }
+
+  .promo-cards.three:not(.photo) .promo-card-copy :is(h3, h4),
+  .promo-cards.photo .promo-card-copy :is(h3, h4) {
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  .deep .promo-cards.three > ul > li:not(:first-child) .promo-card {
+    height: 324px;
+    min-height: 0;
+  }
+
+  .deep .promo-cards.three > ul > li:not(:first-child) .promo-card-copy {
+    min-height: 164px;
+  }
+
+  .deep .promo-cards-wrapper {
+    transform: translateY(6px);
+  }
+
+  .wellness .promo-cards.three > ul > li:first-child .promo-card {
+    height: 233px;
+  }
+
+  .wellness .promo-cards.three > ul > li:first-child .promo-card-copy {
+    min-height: 113px;
+  }
+
+  .wellness .promo-cards.three > ul > li:not(:first-child) .promo-card {
+    height: 281px;
+  }
+
+  .wellness .promo-cards.three > ul > li:not(:first-child) .promo-card-copy {
+    min-height: 161px;
+  }
+
+  .wellness .promo-cards.three > ul > li:not(:first-child) .promo-card-media {
+    transform: translateY(-3px);
+  }
+
+  .promo-cards.photo > ul > li:first-child .promo-card {
+    height: 210px;
+  }
+
+  .promo-cards.photo > ul > li:first-child .promo-card-copy {
+    min-height: 90px;
+  }
+
+  .promo-cards.photo > ul > li:not(:first-child) .promo-card {
+    height: 242px;
+  }
+
+  .promo-cards.photo > ul > li:not(:first-child) .promo-card-copy {
+    min-height: 122px;
+  }
+
+  .promo-cards.photo > ul > li:not(:first-child) .promo-card-media {
+    transform: translateY(-12px);
+  }
+
+  .promo-cards.explore .promo-card {
+    min-height: 258px;
+  }
+
+  .promo-cards.explore .promo-card-media {
+    transform: translateY(6px);
+  }
+
+  .promo-cards.explore .promo-card-media img {
+    aspect-ratio: 16 / 9;
+  }
 }
+/* stylelint-enable no-descending-specificity */

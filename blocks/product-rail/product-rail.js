@@ -1,3 +1,5 @@
+import addMobileDamRendition from '../../scripts/walgreens-images.js';
+
 function mediaFrom(cell) {
   if (!cell) return null;
   return cell.matches('picture, img') ? cell : cell.querySelector('picture, img');
@@ -7,7 +9,7 @@ export default function decorate(block) {
   const list = document.createElement('ul');
   [...block.children].forEach((row) => {
     const item = document.createElement('li');
-    const media = [...row.children].map(mediaFrom).find(Boolean);
+    const media = addMobileDamRendition([...row.children].map(mediaFrom).find(Boolean));
     if (media) {
       const mediaWrap = document.createElement('div');
       mediaWrap.className = 'product-rail-media';

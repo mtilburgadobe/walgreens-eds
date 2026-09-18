@@ -1,0 +1,1743 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/remediation/restarted/visual-1440/
+
+build red flags (advisory):
+  • IMAGERY GAP: source renders 128 images, build renders 49. The build renders far fewer images than the source — confirm intended (CSS backgrounds) vs missing assets.
+  • SURFACE/GROUND MISMATCH: heading "Beauty Savings Event + 20% OFF w" is rgb(255, 255, 255) in build vs rgb(65, 61, 60) in source (luminance 255 vs 62). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • STRETCHED IMAGE: 20260823_HP_Vaccination_SlimInsetBanner.jpg natural 1152x284 → rendered 557x150. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: 20260830_HP_Halloween_Image_SlimBanner.jpg natural 1440x330 → rendered 557x135. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: w1187353.png natural 348x466 → rendered 150x150. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: logo-mywag.png natural 226x93 → rendered 332x187. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5613,
+  "textLen": 7006,
+  "images": [
+   {
+    "src": "Branding.svg",
+    "natural": "38x26",
+    "rendered": "38x26",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1wAAAAASUVORK5CYII=",
+    "natural": "716x464",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260419_HP_HealthPills_OptimizedIconCard_1.svg",
+    "natural": "24x24",
+    "rendered": "20x20",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260419_HP_HealthPills_OptimizedIconCard_2.svg",
+    "natural": "24x24",
+    "rendered": "20x20",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rx_pad.png",
+    "natural": "100x100",
+    "rendered": "20x20",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260419_HP_HealthPills_OptimizedIconCard_4.svg",
+    "natural": "24x24",
+    "rendered": "20x20",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260823_HP_Vaccination_SlimInsetBanner.jpg",
+    "natural": "1152x284",
+    "rendered": "557x137",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card1_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card2_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card3_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card4_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260908_HP_EnterpriseA_Image_Card1_AutoClip3up_Refresh.jpg",
+    "natural": "1376x584",
+    "rendered": "680x289",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseA_Image_Card2_AutoClip3up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseA_Image_Card3_AutoClip3up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6226241_897afcea-d107-42c0-a518-3e102fc4b4d7_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6219671_690c1dd8-5deb-479c-afb6-797c16c3c8ef_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6219991_99513232-27e5-4b68-91b7-82f9e5b1dc64_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6220681_67bd5ec4-694c-4094-9551-3316ebeb2757_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6222361_fe2e3f74-aa20-45c5-87ed-4a68762178a0_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6272155_4f12a43d-3a4f-4408-b632-3ad0bce9c5d3_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6256721_b6e161e5-eba6-4f98-a93a-055429227c90_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6220911_aaf75625-ad66-4c61-9c52-0fb6f0cfbafd_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6223381_e204209d-6056-4e6e-b563-e313590898a5_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6304481_905d4296-b621-4c2d-b74c-deed613a376a_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6303451_302bfe61-f753-4443-820a-23b092fed886_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6222441_7a696f12-9f40-4dd8-994d-d75272d5dfb3_high.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "6261641_48b04af5-1c7b-42a5-9fe6-aeced327a4d0_high.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "w1182891.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "6226131_a64eded3-da90-4e5f-a34f-b5de78e1b191_high.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-mywag.png",
+    "natural": "226x93",
+    "rendered": "198x99",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseB_Image_Card1_3up.jpg",
+    "natural": "1376x504",
+    "rendered": "680x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseB_Image_Card2_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseB_Image_Card3_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_Photo_Image_Card1_3up.jpg",
+    "natural": "1376x504",
+    "rendered": "680x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_Photo_Image_Card2_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_Photo_Image_Card3_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_Halloween_Image_SlimBanner.jpg",
+    "natural": "1440x330",
+    "rendered": "696x160",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_6.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_7.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-2_6.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_7.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-3_3.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_9.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_7.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_7.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-3_9.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_3.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_2.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_6.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_7.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_7.png",
+    "natural": "192x32",
+    "rendered": "80x13",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Hub_Illustration.png",
+    "natural": "72x72",
+    "rendered": "36x36",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_807494_563344.png?v=23832",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_497634_978888_420129.png?v=71951",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_691725_412988.png?v=98787",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_113618_757649_196298.png?v=49884",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "w1187353.png",
+    "natural": "348x466",
+    "rendered": "112x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "w1155430.png",
+    "natural": "464x444",
+    "rendered": "157x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_316994_317120.png?v=64387",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "w1169970.png",
+    "natural": "464x282",
+    "rendered": "229x150",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_323751_323858.png?v=89099",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_410509_875178_772151.png?v=64988",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_114890_121890_114891.png?v=25100",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_773267_773229_485351.png?v=21499",
+    "natural": "0x0",
+    "rendered": "0x150",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_114138_397600_114724.png?v=25979",
+    "natural": "0x0",
+    "rendered": "0x150",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005390.jpg",
+    "natural": "450x450",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005385.jpg",
+    "natural": "450x450",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005387.jpg",
+    "natural": "450x450",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005389.jpg",
+    "natural": "450x450",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005386.jpg",
+    "natural": "450x450",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005388.jpg",
+    "natural": "450x450",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005342.jpg",
+    "natural": "450x450",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "w1160511.png",
+    "natural": "80x100",
+    "rendered": "80x100",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6261205_07d5fbc9-39eb-48b6-bb3d-6923587aa2bf_high.jpg",
+    "natural": "768x768",
+    "rendered": "155x155",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-mywag.png",
+    "natural": "226x93",
+    "rendered": "198x99",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20250803_HP_Tertiary_Image_Card_1.jpg",
+    "natural": "576x324",
+    "rendered": "332x187",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20250803_HP_Tertiary_Image_Card_2.jpg",
+    "natural": "576x324",
+    "rendered": "332x187",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20250907_HP_Tertiary_Image_Card_3_3up.jpg",
+    "natural": "664x373",
+    "rendered": "332x187",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20250803_HP_Tertiary_Image_Card_4_Targeted.jpg",
+    "natural": "576x324",
+    "rendered": "332x187",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "e48179385ee4dbcc817372491d00a94f0850c8b7a0875b281ac15d8a5707051b.jpg",
+    "natural": "1440x500",
+    "rendered": "492x200",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "220.jpg",
+    "natural": "220x220",
+    "rendered": "118x118",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_4.png",
+    "natural": "192x32",
+    "rendered": "76x12",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "220.jpg",
+    "natural": "220x220",
+    "rendered": "118x118",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_7.png",
+    "natural": "192x32",
+    "rendered": "76x12",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "220.jpg",
+    "natural": "220x220",
+    "rendered": "118x118",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_8.png",
+    "natural": "192x32",
+    "rendered": "76x12",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "220.jpg",
+    "natural": "220x220",
+    "rendered": "118x118",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_8.png",
+    "natural": "192x32",
+    "rendered": "76x12",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "220.jpg",
+    "natural": "220x220",
+    "rendered": "118x118",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "rating-4_3.png",
+    "natural": "192x32",
+    "rendered": "76x12",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260906_HP_FeaturedCategories_GroupIcon_Category1_Halloween.jpg",
+    "natural": "672x672",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_2.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_3.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_4.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_5.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_6.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_7.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_8.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_9.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_10.jpg",
+    "natural": "480x480",
+    "rendered": "125x133",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260215_HP_FeaturedCategories_GroupIcon_Category_12_HHC.jpg",
+    "natural": "480x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_12.jpg",
+    "natural": "480x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_13.jpg",
+    "natural": "480x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_14.jpg",
+    "natural": "480x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_17.jpg",
+    "natural": "480x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_18.jpg",
+    "natural": "480x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_19.jpg",
+    "natural": "480x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "WAG_Signature_logo_RGB.png",
+    "natural": "720x150",
+    "rendered": "173x36",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "icon_toggle_transparent.png",
+    "natural": "109x53",
+    "rendered": "52x24",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "W_logo_RGB.png",
+    "natural": "253x164",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "powered_by_logo.svg",
+    "natural": "568x53",
+    "rendered": "0x0",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=28000867&tm=al001&Ver=2&mid=cea5e450-5a29-4b87-a1d6-522166fd8000&bo=2&pi=0&lg=en-US&sw=1440&sh=1000&sc=24&tl=Walgreens%3A%20Pharmacy,%20Health%20%26%20Wellness,%20Photo%20%26%20More%20for%20You&p=https%3A%2F%2Fwww.walgreens.com%2F&r=&lt=2928&pt=1789747631835,,,,,0,4,8,8,136,45,136,379,461,382,1314,1346,1371,2906,2913,2928&pn=0,0&evt=pageLoad&sv=2&asc=D&cdb=AQEZ&rn=579210",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "0?ti=28000867&tm=al001&Ver=2&mid=cea5e450-5a29-4b87-a1d6-522166fd8000&bo=3&pagetype=other&en=Y&p=https%3A%2F%2Fwww.walgreens.com%2F&sw=1440&sh=1000&sc=24&evt=custom&asc=D&cdb=AQEZ&rn=28247",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Walgreens: Pharmacy, Health & We",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Because your health matters",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beauty Savings Event + 20% OFF w",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "To clip coupons, you'll need a m",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fall well-being refresh",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Save every smile",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Deals of the Week",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Offers just for you",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "To clip coupons, you'll need a m",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Buy again",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Recently viewed items",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Explore more",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured categories",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Inter",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [
+   {
+    "tag": "h1",
+    "text": "Walgreens: Pharmacy, Health ",
+    "left": -1
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "wag-row",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "cmp-text__paragraph",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "wag-row",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "cmp-text__paragraph",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "wag-row",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "header",
+    "width": 1377,
+    "left": 24
+   },
+   {
+    "sel": "modal",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "wag-left-aligned",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "wag-row",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "wag-left-aligned",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "wag-row",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "wag-row",
+    "width": 1392,
+    "left": 24
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 4914,
+  "textLen": 2892,
+  "images": [
+   {
+    "src": "20260823_HP_Vaccination_SlimInsetBanner.jpg",
+    "natural": "1152x284",
+    "rendered": "557x150",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card1_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card2_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card3_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_HealthModule_Image_Card4_4up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260908_HP_EnterpriseA_Image_Card1_AutoClip3up_Refresh.jpg",
+    "natural": "1376x584",
+    "rendered": "680x289",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseA_Image_Card2_AutoClip3up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseA_Image_Card3_AutoClip3up.jpg",
+    "natural": "672x672",
+    "rendered": "332x332",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6226241_897afcea-d107-42c0-a518-3e102fc4b4d7_high.jpg",
+    "natural": "768x768",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6219671_690c1dd8-5deb-479c-afb6-797c16c3c8ef_high.jpg",
+    "natural": "768x768",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6219991_99513232-27e5-4b68-91b7-82f9e5b1dc64_high.jpg",
+    "natural": "768x768",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6220681_67bd5ec4-694c-4094-9551-3316ebeb2757_high.jpg",
+    "natural": "768x768",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "6222361_fe2e3f74-aa20-45c5-87ed-4a68762178a0_high.jpg",
+    "natural": "768x768",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseB_Image_Card1_3up.jpg",
+    "natural": "1376x504",
+    "rendered": "680x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseB_Image_Card2_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_EnterpriseB_Image_Card3_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_Photo_Image_Card1_3up.jpg",
+    "natural": "1376x504",
+    "rendered": "680x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_Photo_Image_Card2_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260913_HP_Photo_Image_Card3_3up.jpg",
+    "natural": "672x504",
+    "rendered": "332x249",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260830_HP_Halloween_Image_SlimBanner.jpg",
+    "natural": "1440x330",
+    "rendered": "557x135",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "155.jpg",
+    "natural": "155x155",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_807494_563344.png?v=23832",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_497634_978888_420129.png?v=71951",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_691725_412988.png?v=98787",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "M_113618_757649_196298.png?v=49884",
+    "natural": "1000x1000",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "w1187353.png",
+    "natural": "348x466",
+    "rendered": "150x150",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005390.jpg",
+    "natural": "450x450",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005385.jpg",
+    "natural": "450x450",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005387.jpg",
+    "natural": "450x450",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005389.jpg",
+    "natural": "450x450",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1000005386.jpg",
+    "natural": "450x450",
+    "rendered": "150x150",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-mywag.png",
+    "natural": "226x93",
+    "rendered": "332x187",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "20250803_HP_Tertiary_Image_Card_2.jpg",
+    "natural": "576x324",
+    "rendered": "332x187",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20250907_HP_Tertiary_Image_Card_3_3up.jpg",
+    "natural": "664x373",
+    "rendered": "332x187",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20250803_HP_Tertiary_Image_Card_4_Targeted.jpg",
+    "natural": "576x324",
+    "rendered": "332x187",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20260906_HP_FeaturedCategories_GroupIcon_Category1_Halloween.jpg",
+    "natural": "672x672",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_2.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_3.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_4.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_5.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_6.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_7.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_8.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_9.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "20251228_HP_FeaturedCategories_GroupIcon_Category_10.jpg",
+    "natural": "480x480",
+    "rendered": "125x125",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Get vaccinated and earn $15 Walg",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "30px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Because your health matters",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Plan ahead for the season",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Feeling under the weather?",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Get a GLP-1 prescription",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sign up for real-time prescripti",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Beauty Savings Event + 20% OFF w",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Earn $10 in rewards*",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Buy 1 Get 1 50% OFF",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Earn $10 in rewards*",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Beauty deals you’ll love",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fall well-being refresh",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "20% OFF",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Buy 1 Get 1 FREE",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Buy 1 Get 1 50% OFF",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Save every smile",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "50% OFF",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "50% OFF",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "50% OFF",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "28px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Shop all Halloween",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bring on the boo",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Deals of the Week",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Offers just for you",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Explore more",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Join myWalgreens®",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Download our app",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Get it faster",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Unlock your offer",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "22px",
+    "family": "inter",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Featured categories",
+    "color": "rgb(65, 61, 60)",
+    "fontSize": "36px",
+    "family": "Times New Roman",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "promo-banner-frame",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "promo-cards",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "promo-cards",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "product-rail",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "promo-cards",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "promo-cards",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "promo-banner-frame",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "product-rail",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "product-rail",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "product-rail",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "promo-cards",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "category-grid",
+    "width": 1392,
+    "left": 24
+   }
+  ]
+ }
+}

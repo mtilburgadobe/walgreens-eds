@@ -9,3 +9,6 @@
   static authored content.
 - Source image URLs are temporary pilot references because DA media import is
   deferred. Before production, rehost captured originals in DA and replace URLs.
+- Local Tiempos Headline files are fidelity references obtained from the
+  authorized source presentation. Confirm production font rights and move them
+  through the approved asset process before release.

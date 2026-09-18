@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 header .nav-wrapper {
   width: 100%;
   border-bottom: 1px solid #aaa;
@@ -7,75 +8,168 @@ header .nav-wrapper {
 header nav {
   display: grid;
   grid-template:
-    "brand tools" auto
-    "sections sections" auto / auto 1fr;
-  width: min(calc(100% - 48px), var(--content-max-width));
+    "utility utility" 40px
+    "brand tools" 72px
+    "sections sections" 40px
+    "quick quick" 80px / 48px 1fr;
+  width: 100%;
   margin: auto;
+}
+
+header nav > .section {
+  min-width: 0;
+  padding-inline: 24px;
+}
+
+header .nav-utility {
+  grid-area: utility;
+  background: var(--wag-warm);
+}
+
+header .nav-utility ul,
+header .nav-quick ul,
+header .nav-sections ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header .nav-utility ul {
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 header .nav-brand {
   grid-area: brand;
   align-self: center;
+  padding-right: 0;
+}
+
+header .nav-brand p {
+  margin: 0;
 }
 
 header .nav-brand .nav-logo {
   display: block;
   color: var(--wag-red);
-  font: italic 700 45px/1 var(--heading-font-family);
-}
-
-header .nav-brand .nav-logo picture,
-header .nav-brand .nav-logo p {
-  margin: 0;
+  font: italic 700 38px/1 var(--heading-font-family);
 }
 
 header .nav-brand img {
-  width: 45px;
-  height: 36px;
+  width: 38px;
+  height: 34px;
   object-fit: contain;
 }
 
 header .nav-tools {
   grid-area: tools;
+  padding-left: 0;
 }
 
 header .nav-tools .default-content-wrapper {
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: minmax(260px, 725px) 1fr auto auto;
   align-items: center;
-  gap: 18px;
-  min-height: 68px;
+  gap: 28px;
+  height: 72px;
 }
 
-header .nav-tools p:first-of-type {
-  flex: 1;
-  max-width: 700px;
+header .nav-tools p {
+  margin: 0;
 }
 
 header .nav-tools input {
   width: 100%;
+  height: 48px;
   border: 1px solid #777;
-  border-radius: 24px;
-  padding: 10px 17px;
+  border-radius: 25px;
+  padding: 10px 50px 10px 20px;
+  background: #fff;
+}
+
+header .nav-tools p:first-child {
+  position: relative;
+}
+
+header .nav-tools p:first-child::after {
+  content: "⌕";
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  font-size: 28px;
+  line-height: 1;
 }
 
 header .nav-tools a {
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+header .nav-tools p:nth-child(2) a::before {
+  content: "⌖ ";
+  font-size: 25px;
+  vertical-align: -2px;
+}
+
+header .nav-tools p:nth-child(3) a::before {
+  content: "♙ ";
+  font-size: 23px;
+  vertical-align: -2px;
+}
+
+header .nav-tools p:nth-child(4) a::before {
+  content: "🛒";
+  font-size: 24px;
 }
 
 header .nav-sections {
   grid-area: sections;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #bbb;
 }
 
 header .nav-sections ul {
+  align-items: center;
+  gap: 28px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+header .nav-sections li:last-child {
+  margin-left: auto;
+}
+
+header .nav-quick {
+  grid-area: quick;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  background: #aca6a6;
+}
+
+header .nav-quick ul {
+  gap: 16px;
+}
+
+header .nav-quick li {
+  flex: 1;
+}
+
+header .nav-quick a {
   display: flex;
-  gap: 25px;
-  margin: 0;
-  padding: 9px 0;
-  list-style: none;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 8px #625d5d55;
   font-size: 12px;
+  font-weight: 700;
 }
 
 header .nav-toggle {
@@ -85,17 +179,42 @@ header .nav-toggle {
 @media (width <= 899px) {
   header nav {
     grid-template:
-      "toggle brand tools" 58px
-      "sections sections sections" auto / auto auto 1fr;
-    width: 100%;
-    padding: 0 12px;
+      "utility utility utility utility" 40px
+      "toggle brand tools tools" 64px
+      "location location location location" 49px
+      "quick quick quick quick" 142px / 43px 48px 1fr 48px;
+  }
+
+  header nav > .section {
+    padding-inline: 16px;
+  }
+
+  header .nav-utility {
+    padding-inline: 0;
+    overflow: hidden;
+  }
+
+  header .nav-utility ul {
+    width: max-content;
+    animation: none;
+    font-size: 14px;
+  }
+
+  header .nav-utility li {
+    width: 360px;
+    text-align: center;
+  }
+
+  header .nav-utility li:not(:first-child) {
+    display: none;
   }
 
   header .nav-toggle {
-    grid-area: toggle;
     display: block;
-    width: 35px;
+    grid-area: toggle;
+    width: 43px;
     border: 0;
+    padding: 0 0 0 20px;
     background: transparent;
   }
 
@@ -103,7 +222,7 @@ header .nav-toggle {
   header .nav-toggle span::before,
   header .nav-toggle span::after {
     display: block;
-    width: 22px;
+    width: 20px;
     height: 2px;
     background: var(--wag-ink);
   }
@@ -119,33 +238,78 @@ header .nav-toggle {
     left: 0;
   }
 
-  header .nav-toggle span::before {
-    top: -7px;
-  }
+  header .nav-toggle span::before { top: -7px; }
+  header .nav-toggle span::after { top: 7px; }
 
-  header .nav-toggle span::after {
-    top: 7px;
+  header .nav-brand {
+    padding: 0;
   }
 
   header .nav-brand .nav-logo {
     font-size: 35px;
   }
 
+  header .nav-tools {
+    display: contents;
+  }
+
   header .nav-tools .default-content-wrapper {
-    min-height: 58px;
-    gap: 10px;
+    display: contents;
   }
 
-  header .nav-tools p:first-of-type {
-    max-width: none;
+  header .nav-tools p:first-child {
+    grid-area: tools;
+    align-self: center;
+    margin: 0 6px 0 12px;
   }
 
-  header .nav-tools p:not(:first-of-type) {
-    display: none;
+  header .nav-tools input {
+    height: 48px;
+  }
+
+  header .nav-tools p:nth-child(2) {
+    grid-area: location;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #bbb;
+    padding: 0 20px;
+  }
+
+  header .nav-tools p:nth-child(2) a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  header .nav-tools p:nth-child(3) {
+    grid-area: location;
+    place-self: center end;
+    padding-right: 20px;
+  }
+
+  header .nav-tools p:nth-child(4) {
+    grid-area: tools;
+    place-self: center end;
+  }
+
+  header .nav-tools p:nth-child(4) a {
+    width: 42px;
+    overflow: hidden;
+    color: transparent;
+  }
+
+  header .nav-tools p:nth-child(4) a::before {
+    color: var(--wag-ink);
   }
 
   header .nav-sections {
     display: none;
+    position: absolute;
+    z-index: 10;
+    top: 104px;
+    width: 100%;
+    background: #fff;
   }
 
   header nav[aria-expanded="true"] .nav-sections {
@@ -154,6 +318,25 @@ header .nav-toggle {
 
   header .nav-sections ul {
     display: grid;
+    height: auto;
     grid-template-columns: repeat(2, 1fr);
+    padding: 16px 0;
+  }
+
+  header .nav-quick {
+    padding: 10px 16px 12px;
+  }
+
+  header .nav-quick ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  header .nav-quick a {
+    height: 55px;
+    padding: 8px;
+    text-align: center;
   }
 }
+/* stylelint-enable no-descending-specificity */

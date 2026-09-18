@@ -8,20 +8,15 @@
 }
 
 .promo-banner .promo-banner-frame {
+  display: grid;
+  grid-template-columns: 60% 40%;
   min-height: 150px;
 }
 
 .promo-banner .promo-banner-media {
-  position: absolute;
-  inset: 0;
+  grid-column: 2;
+  grid-row: 1;
   overflow: hidden;
-}
-
-.promo-banner .promo-banner-media::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, var(--wag-deep) 0 58%, transparent 82%);
 }
 
 .promo-banner .promo-banner-media picture,
@@ -40,10 +35,11 @@
 }
 
 .promo-banner .promo-banner-content {
-  position: relative;
-  z-index: 1;
-  width: 66%;
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
   padding: 24px 32px;
+  text-align: center;
 }
 
 .promo-banner h1 {
@@ -84,12 +80,27 @@
 }
 
 .promo-banner.halloween .promo-banner-media::after {
-  background: linear-gradient(90deg, var(--wag-deep) 0 42%, transparent 68%);
+  background: none;
 }
 
 .promo-banner.halloween .promo-banner-content {
-  width: 48%;
+  width: 100%;
   text-align: center;
+}
+
+@media (width >= 641px) {
+  .promo-banner.halloween,
+  .promo-banner.halloween .promo-banner-frame {
+    min-height: 160px;
+  }
+
+  .promo-banner.halloween {
+    margin-bottom: -25px;
+  }
+
+  .promo-banner.halloween .promo-banner-frame {
+    grid-template-columns: 50% 50%;
+  }
 }
 
 .promo-banner.halloween h2 {
@@ -105,19 +116,51 @@
 @media (width <= 640px) {
   .promo-banner,
   .promo-banner .promo-banner-frame {
-    min-height: 170px;
+    min-height: 333px;
   }
 
-  .promo-banner .promo-banner-media::after {
-    background: linear-gradient(90deg, var(--wag-deep) 0 48%, transparent 88%);
+  .promo-banner .promo-banner-frame {
+    grid-template: "content" 252px "media" 81px / 1fr;
   }
 
   .promo-banner .promo-banner-content {
-    width: 68%;
-    padding: 17px;
+    grid-area: content;
+    padding: 17px 22px;
+  }
+
+  .promo-banner:not(.halloween) .promo-banner-content {
+    transform: translateY(-3px);
   }
 
   .promo-banner h1 {
-    font-size: 20px;
+    font-size: 27px;
+  }
+
+  .promo-banner .promo-banner-media {
+    grid-area: media;
+  }
+
+  .promo-banner.halloween,
+  .promo-banner.halloween .promo-banner-frame {
+    min-height: 188px;
+  }
+
+  .promo-banner.halloween {
+    margin-bottom: -37px;
+  }
+
+  .promo-banner.halloween .promo-banner-frame {
+    grid-template: "content" 113px "media" 75px / 1fr;
+  }
+
+  .promo-banner.halloween .promo-banner-content {
+    grid-area: content;
+    padding: 15px;
+    transform: translateY(-2px);
+  }
+
+  .promo-banner.halloween .promo-banner-media {
+    grid-area: media;
+    transform: translateY(-2px);
   }
 }

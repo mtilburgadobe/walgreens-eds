@@ -1,3 +1,5 @@
+import addMobileDamRendition from '../../scripts/walgreens-images.js';
+
 function findMedia(cell) {
   if (!cell) return null;
   return cell.matches('picture, img') ? cell : cell.querySelector('picture, img');
@@ -5,7 +7,7 @@ function findMedia(cell) {
 
 export default function decorate(block) {
   const cells = [...block.querySelectorAll(':scope > div > div')];
-  const media = cells.map(findMedia).find(Boolean);
+  const media = addMobileDamRendition(cells.map(findMedia).find(Boolean));
   const heading = block.querySelector('h1, h2');
   const paragraphs = [...block.querySelectorAll('p')];
   const action = paragraphs.find((p) => p.querySelector('a'));

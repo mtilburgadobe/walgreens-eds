@@ -18,19 +18,20 @@
 The capture contains only favicon and screenshot binaries. Editorial image URLs
 therefore remain fully qualified Walgreens/CDN references for this local pilot.
 Production requires DA media upload and delivered `.plain.html` verification.
+Tiempos Headline files were obtained from the authorized source presentation
+for local fidelity use. Production reuse requires normal font licensing and
+provenance review.
 
 ## Delivery status
 
-Code was pushed to `mtilburgadobe/walgreens-eds` and `index`, `nav`, and
-`footer` were uploaded to DA and previewed on the `main` code branch.
+This remediation is local-only. No commit, push, DA upload, preview request, or
+publish was performed. The existing deployed preview was used only as the
+requested baseline and cannot contain these unpushed fixes.
 
-Delivered preview verification:
+- local QA: 34 checks passed, 0 failed
+- Experience Workspace: 123/123 authored texts editable
+- final normalized pixel difference: 7.13% at 1440; 9.10% at 360
+- final height delta: 6px at 1440; -8px at 360
 
-- canonical URL: `https://main--walgreens-eds--mtilburgadobe.aem.page/`
-- local/rendered QA: 32 checks passed, 0 failed
-- Experience Workspace: 99/99 authored texts editable
-- editorial images: 44, with zero `about:error` ingestion failures
-- AI readability: 100%
-
-Production publish was intentionally withheld because the replica
-source-fidelity pixel gate remains above its 10% pass bar.
+Both pixel and height bars pass. Raw structural comparison still reports 23 red
+findings per width, so deployment is not claimed.

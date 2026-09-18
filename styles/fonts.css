@@ -1,5 +1,21 @@
 /* stylelint-disable max-line-length */
 @font-face {
+  font-family: tiempos-headline;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/tiempos-headline-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: tiempos-headline;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/tiempos-headline-light.woff2') format('woff2');
+}
+
+@font-face {
   font-family: roboto-condensed;
   font-style: normal;
   font-weight: 700;

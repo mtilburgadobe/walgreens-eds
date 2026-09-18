@@ -1,3 +1,5 @@
+import addMobileDamRendition from '../../scripts/walgreens-images.js';
+
 function mediaFrom(cell) {
   if (!cell) return null;
   return cell.matches('picture, img') ? cell : cell.querySelector('picture, img');
@@ -9,7 +11,7 @@ export default function decorate(block) {
     const cells = [...row.children];
     if (!cells.length) return;
     const item = document.createElement('li');
-    const media = cells.map(mediaFrom).find(Boolean);
+    const media = addMobileDamRendition(cells.map(mediaFrom).find(Boolean));
     const body = document.createElement('div');
     body.className = 'promo-card';
     if (media) {

@@ -16,5 +16,21 @@ export default async function decorate(block) {
   const footer = document.createElement('div');
   while (fragment.firstElementChild) footer.append(fragment.firstElementChild);
 
+  const sections = [...footer.children];
+  const signup = sections.find((section) => section.textContent.includes('Sign up for deals'));
+  const links = sections.find((section) => section.textContent.includes('Customer Service'));
+  const legal = sections.find((section) => section.textContent.includes('All rights reserved'));
+  const directory = sections.find((section) => section.textContent.includes('View all products by'));
+  signup?.classList.add('footer-signup');
+  links?.classList.add('footer-links');
+  legal?.classList.add('footer-legal');
+  directory?.classList.add('footer-directory');
+
+  const signature = legal?.querySelector('p:first-child');
+  if (signature && links) {
+    signature.classList.add('footer-signature');
+    links.querySelector('.default-content-wrapper')?.prepend(signature);
+  }
+
   block.append(footer);
 }
