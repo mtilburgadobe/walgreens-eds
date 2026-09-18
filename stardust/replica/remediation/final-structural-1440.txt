@@ -1,0 +1,54 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 13 text nodes — 8 headings, 0 eyebrows, 4 CTAs, 1 body; 33 img
+  build: 58 text nodes — 8 headings, 0 eyebrows, 31 CTAs, 19 body; 29 img
+  editable texts (outermost h*/p/ul/ol): source 49 / build 30
+  normalization: source [{"selector":"#hp-beauty-coupon-carousel-container","hits":1},{"selector":"#halloween-carousel-container","hits":1},{"selector":"#dotw-dynamic-carousel-container","hits":1},{"selector":"#offers-for-you-dynamic-coupon-carousel","hits":1},{"selector":"#text-8377255dfe","hits":1}] / build [{"selector":".default-content-wrapper:has(+ .product-rail-wrapper .product-rail.coupons), .product-rail-wrapper:has(.product-rail.coupons)","hits":2},{"selector":".section:has(.product-rail.halloween-products)","hits":1},{"selector":".section:has(.product-rail.deals)","hits":1},{"selector":".section:has(.product-rail.offers)","hits":1}]
+
+Findings: 46 (0 structural 🔴)
+  🟠 EXTRA: build cta "Plan ahead for the season" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Feeling under the weather?" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Get a GLP-1 prescription" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Sign up for real-time prescription alerts" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Earn $10 in rewards*" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Buy 1 Get 1 50% OFF" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Earn $10 in rewards*" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "20% OFF" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Buy 1 Get 1 FREE" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Buy 1 Get 1 50% OFF" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "50% OFF" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "50% OFF" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "50% OFF" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Join myWalgreens®" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Download our app" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Get it faster" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Unlock your offer" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Halloween" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Grocery & Beverage" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Vitamins & Supplements" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Personal Care" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Beauty" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Household & Pet Essentials" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Medicines & Treatments" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Contact Lenses" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Active Nutrition" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "First Aid" has no source source — Unexpected node with no source.
+  🟡 EXTRA: build body "Get your flu shot today. Walk in or schedule onl" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Find out if it’s flu or COVID-19 with an at-home" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Only $49 per visit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Medication costs not included. Rx based on medic" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Text JOINRX to 21525" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "on $30+ mix & match select beauty" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "myWalgreens" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "select same-brand cosmetics" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "when you spend $50+ in store or online" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "$40+ on select wellness & beauty items with code" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "select same-brand vitamins & supplements" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "select Tampax & Always + $5 rewards* on $30" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Everything Photo" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Wall Décor" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Prints & Enlargements" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Plus get an extra 10% OFF sitewide with code WAG" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Try 30-Minute Pickup or 1-Hour Delivery FREE on " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Get $50 in rewards* with the myWalgreens® Credit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT: build has 30 outermost editable element(s) vs 49 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).

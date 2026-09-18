@@ -1,3 +1,8 @@
+.category-grid-container > .default-content-wrapper h2 {
+  margin-bottom: 27px;
+  font: 600 22px/1.2 var(--body-font-family);
+}
+
 .category-grid > ul {
   display: grid;
   grid-template-columns: repeat(10, minmax(0, 1fr));
@@ -43,6 +48,11 @@
 }
 
 @media (width <= 640px) {
+  .category-grid-container > .default-content-wrapper h2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
   .category-grid-wrapper {
     transform: translateY(8px);
   }

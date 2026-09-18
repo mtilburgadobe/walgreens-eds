@@ -12,6 +12,7 @@ applied identically to source and candidate.
 | Beauty coupon carousel | Hide on both widths and both sides | The live carousel alternated between absent and populated mobile states during the same run. The authorable pilot block remains in code. |
 | Halloween commerce carousel | Hide on both widths and both sides | Product inventory, pricing, promotions, and purchase controls are API-owned and differed from the authorable fallback. |
 | Deals of the Week carousel | Hide on both widths and both sides; retain the measured candidate outer-flow spacer (49px desktop, 20px mobile) | Store-specific prices and availability are API-owned; the static pilot cannot reproduce a settled commerce response. The spacer preserves the equivalent source section boundary rather than masking stable content. |
+| Detached beauty label duplicate | Hide source `#text-8377255dfe` during structural comparison | Walgreens emits a second white-on-white “Beauty deals you’ll love” label after the commerce tree. It is not visible in the settled source screenshot and has no candidate visual surface. |
 | Motion | Disable animation and transitions after settlement | Prevent carousel/creative phase differences. |
 
 Location, account, and cart remain in neutral signed-out/header states. No

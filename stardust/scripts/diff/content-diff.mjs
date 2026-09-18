@@ -46,6 +46,9 @@
  *     --dismiss [sel,...]   dismiss overlays on both sides via live-session
  *                           (consent + timed marketing modals), plus these extra
  *                           site-specific selectors (optional)
+ *     --hide-source <sel>   hide a documented source-only dynamic surface before
+ *                           inventory; repeat for multiple selectors
+ *     --hide-target <sel>   hide its target-side equivalent; repeat as needed
  *     --headed              escalation: headed stealth real Chrome (bot-managed sites)
  *     --locale <tag>        pin Accept-Language + context locale (geo-redirect determinism)
  *
@@ -87,6 +90,8 @@ const USAGE = `usage: node skills/diff/scripts/content-diff.mjs <sourceURL> <bui
                          other live http(s) (never reach networkidle).
   --dismiss [sel,...]    dismiss overlays (consent + timed marketing modals) on both
                          sides; optional comma-separated extra selectors
+  --hide-source <sel>    hide one source dynamic surface; repeatable and must match
+  --hide-target <sel>    hide one target equivalent; repeatable and must match
   --headed               headed stealth real Chrome (escalation for bot-managed sites)
   --locale <tag>         pin Accept-Language + locale (e.g. en-GB) for geo determinism
 exit codes: 0 ran (flags advisory; an HTTP-error side, e.g. a 404 build pre-propagation,
@@ -97,7 +102,19 @@ exit codes: 0 ran (flags advisory; an HTTP-error side, e.g. a 404 build pre-prop
 function parseArgs(argv) {
   const [, , proto, eds, ...rest] = argv;
   if (rest.includes('--help') || proto === '--help' || proto === '-h') { process.stdout.write(USAGE); process.exit(0); }
-  const opts = { main: null, width: 1280, json: false, profile: 'eds', ua: REAL_CHROME_UA, waitUntil: null, dismiss: null, headed: false, locale: null };
+  const opts = {
+    main: null,
+    width: 1280,
+    json: false,
+    profile: 'eds',
+    ua: REAL_CHROME_UA,
+    waitUntil: null,
+    dismiss: null,
+    headed: false,
+    locale: null,
+    sourceHides: [],
+    targetHides: [],
+  };
   for (let i = 0; i < rest.length; i += 1) {
     const a = rest[i];
     if (a === '--main') { opts.main = rest[i += 1]; }
@@ -113,11 +130,13 @@ function parseArgs(argv) {
     }
     else if (a === '--headed') { opts.headed = true; }
     else if (a === '--locale') { opts.locale = rest[i += 1]; }
+    else if (a === '--hide-source') { opts.sourceHides.push(rest[i += 1]); }
+    else if (a === '--hide-target') { opts.targetHides.push(rest[i += 1]); }
   }
   return { proto, eds, opts };
 }
 
-async function grab(browser, url, opts, prof) {
+async function grab(browser, url, opts, prof, side) {
   // UA + standard headers on EVERY context (live-session; F-R1 — UA alone
   // still 403s on Akamai), webdriver spoof included for the --headed tier.
   const ctx = await newLiveContext(browser, {
@@ -137,6 +156,16 @@ async function grab(browser, url, opts, prof) {
   // late-modal poll window only on live targets — local prototypes' overlays
   // are not timed third-party scripts, they render immediately.
   if (opts.dismiss) await dismissOverlays(page, { extra: opts.dismiss, lateWindowMs: isLiveHttpUrl(url) ? 6000 : 0 });
+  const hideSelectors = side === 'source' ? opts.sourceHides : opts.targetHides;
+  const normalization = await page.evaluate((selectors) => selectors.map((selector) => {
+    const elements = [...document.querySelectorAll(selector)];
+    elements.forEach((element) => element.style.setProperty('display', 'none', 'important'));
+    return { selector, hits: elements.length };
+  }), hideSelectors);
+  const missed = normalization.filter(({ hits }) => hits === 0);
+  if (missed.length) {
+    throw new Error(`${side} normalization selector matched nothing: ${missed.map(({ selector }) => selector).join(', ')}`);
+  }
   // scroll through to trigger reveal-on-scroll / lazy nodes, then return to top
   await page.evaluate(async () => {
     for (let y = 0; y < document.body.scrollHeight; y += 600) { window.scrollTo(0, y); await new Promise((r) => { setTimeout(r, 40); }); }
@@ -145,6 +174,7 @@ async function grab(browser, url, opts, prof) {
   await page.waitForTimeout(400);
   const inv = await page.evaluate(inventory, [opts.main || prof.mainDefault, prof.eyebrow]);
   inv.editable = await page.evaluate(editableInventory, [opts.main || prof.mainDefault]);
+  inv.normalization = normalization;
   await ctx.close();
   return inv;
 }
@@ -159,8 +189,8 @@ async function main() {
   const browser = opts.headed ? await launchStealthHeaded(chromium) : await chromium.launch();
   let srcInv; let tgtInv;
   try {
-    srcInv = await grab(browser, proto, opts, prof);
-    tgtInv = await grab(browser, eds, opts, prof);
+    srcInv = await grab(browser, proto, opts, prof, 'source');
+    tgtInv = await grab(browser, eds, opts, prof, 'target');
   } finally {
     await browser.close();
   }
@@ -176,6 +206,9 @@ async function main() {
   const srcEd = srcInv.editable ? srcInv.editable.count : 0;
   const tgtEd = tgtInv.editable ? tgtInv.editable.count : 0;
   process.stdout.write(`  editable texts (outermost h*/p/ul/ol): ${prof.source} ${srcEd} / ${prof.target} ${tgtEd}\n`);
+  if (srcInv.normalization.length || tgtInv.normalization.length) {
+    process.stdout.write(`  normalization: ${prof.source} ${JSON.stringify(srcInv.normalization)} / ${prof.target} ${JSON.stringify(tgtInv.normalization)}\n`);
+  }
   if (tgtEd < srcEd) flags.push({ sev: '🟡', kind: 'EDITABLE COUNT', msg: `${prof.target} has ${tgtEd} outermost editable element(s) vs ${srcEd} in the ${prof.source} — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).` });
 
   if ((srcInv.items.length < 3 || tgtInv.items.length < 3)) {

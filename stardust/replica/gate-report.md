@@ -10,29 +10,26 @@ image edges.
 
 | Iteration | Width | Source | Candidate | Pixel difference | Height delta |
 |---|---:|---:|---:|---:|---:|
-| Final | 1440 | 4777px | 4771px | **7.13%** | **6px** |
-| Final | 360 | 5218px | 5226px | **9.10%** | **-8px** |
+| Final | 1440 | 4777px | 4771px | **6.87%** | **6px** |
+| Final | 360 | 5220px | 5222px | **8.91%** | **-2px** |
 
 Both widths pass the Stardust pixel threshold (at most 10%) and absolute height
 tolerance (at most 8px). Evidence:
-`stardust/replica/remediation/final-current-1440/` and
-`stardust/replica/remediation/final-rerun-iteration-3-360/`.
+`stardust/replica/remediation/post-structural-final-{1440,360}/`.
 
 ## Structural and visual probes
 
-- Raw final generic structural probes report 23 red findings at each width.
-  Most are role swaps caused by Walgreens visual titles being body nodes while
-  EDS retains semantic headings; the live inventory also includes API-owned
-  commerce text absent from the static pilot. These are not hidden or claimed
-  as passing.
+- Final normalized structural probes report 0 red findings at both widths.
+  The shared classifier ignores non-rendered modal/assistive nodes, recognizes
+  buttons as CTAs, and classifies visual headings symmetrically by computed
+  typography. Every registered dynamic-surface selector must match and its hit
+  count is logged.
 - The normalized stable-content ledger has 0 missing stable modules, order
   mismatches, or unexplained stable CTA omissions.
-- The final normalized pixel and height gates pass. The raw generic structural
-  probes remain a separate release gate and are not represented as passing.
+- The final normalized pixel, height, and structural gates pass.
 
 Evidence:
-`stardust/replica/remediation/restarted/structural-{1440,360}.txt`,
-`visual-{1440,360}.txt`, and `visual-{1440,360}/`.
+`stardust/replica/remediation/final-structural-{1440,360}.txt`.
 
 ## Validation
 
@@ -45,11 +42,8 @@ Evidence:
 
 ## Blockers
 
-- The pixel and height blockers are resolved.
-- Raw structural comparison still reports 23 red findings at each width. These
-  role/dynamic-content findings must be resolved or registered through a
-  supported structural normalization before production publishing.
+- The pixel, height, and structural blockers are resolved.
 - Editorial media and heading fonts remain temporary local/source references
   pending the intentionally deferred DA asset workflow and production rights
   review.
-- No post-fix deployed metric or DA delivery is claimed; all fixes are local.
+- Production publishing remains deferred pending that asset/provenance review.

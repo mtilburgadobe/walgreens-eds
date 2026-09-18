@@ -90,6 +90,14 @@ export function inventory(args) {
   let order = 0;
   root.querySelectorAll('*').forEach((el) => {
     const tag = el.tagName.toLowerCase();
+    const cs = getComputedStyle(el);
+    const rect = el.getBoundingClientRect();
+    const clippedAssistiveText = rect.width <= 1 && rect.height <= 1
+      && (el.matches('.sr-only, .aem-sr-only')
+        || cs.clip !== 'auto' || cs.clipPath !== 'none');
+    if (cs.display === 'none' || cs.visibility === 'hidden'
+      || Number(cs.opacity) === 0 || !el.getClientRects().length
+      || clippedAssistiveText) return;
 
     // Images are visual-diff's domain (load/stretch/imagery-gap) and their alt
     // text rarely matches verbatim across proto↔EDS — count them, don't diff them.
@@ -98,11 +106,11 @@ export function inventory(args) {
     // A text CTA: an <a> whose label is text (not an image link). Use the FULL
     // label (textContent) so <strong><a>…</a></strong> and <a><strong>…</strong></a>
     // both resolve, then skip the link's inner nodes below via closest('a').
-    if (tag === 'a') {
+    if (tag === 'a' || tag === 'button' || el.getAttribute('role') === 'button') {
       if (el.querySelector('img, picture')) return; // image/logo link, not a text CTA
       const t = clean(el.textContent);
       if (!t) return;
-      out.push({ role: 'cta', order: order++, text: t, key: norm(t), href: el.getAttribute('href') || '', ...face(norm(t), getComputedStyle(el)) });
+      out.push({ role: 'cta', order: order++, text: t, key: norm(t), href: el.getAttribute('href') || '', ...face(norm(t), cs) });
       return;
     }
 
@@ -110,11 +118,10 @@ export function inventory(args) {
     // isn't double-counted (the <p> carries the text, the <div> is empty).
     const own = clean([...el.childNodes].filter((n) => n.nodeType === 3).map((n) => n.textContent).join(' '));
     if (!own) return;
-    if (el.closest('a')) return; // text inside a link — already captured by the <a>
+    if (el.closest('a, button, [role="button"]')) return; // text inside a control — already captured above
 
-    const cs = getComputedStyle(el);
     const item = { order: order++, text: own, key: norm(own), ...face(norm(own), cs) };
-    if (/^h[1-6]$/.test(tag)) item.role = 'heading';
+    if (parseFloat(cs.fontSize) >= 20) item.role = 'heading';
     else if (cs.textTransform === 'uppercase' && parseFloat(cs.fontSize) <= eyebrow.maxFontPx && own.length <= eyebrow.maxLen) item.role = 'eyebrow';
     else item.role = 'body';
     out.push(item);

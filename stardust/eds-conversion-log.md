@@ -30,8 +30,9 @@ requested baseline and cannot contain these unpushed fixes.
 
 - local QA: 34 checks passed, 0 failed
 - Experience Workspace: 123/123 authored texts editable
-- final normalized pixel difference: 7.13% at 1440; 9.10% at 360
-- final height delta: 6px at 1440; -8px at 360
+- final normalized pixel difference: 6.87% at 1440; 8.91% at 360
+- final height delta: 6px at 1440; -2px at 360
+- final normalized structural findings: 0 red at 1440; 0 red at 360
 
-Both pixel and height bars pass. Raw structural comparison still reports 23 red
-findings per width, so deployment is not claimed.
+Pixel, height, and structural bars pass. Production publishing remains
+deferred for editorial asset and font provenance review.

@@ -17,5 +17,6 @@ offers surfaces. Stable module order at 1440 and 360:
 
 Stable CTAs present: Schedule now, View all, Shop now, See more, coupon clip
 actions, and linked card titles. Result: 0 missing stable modules, 0 order
-mismatches, and 0 unexplained stable CTA omissions. Final raw generic findings
-remain disclosed in `restarted/structural-{1440,360}.txt`.
+mismatches, 0 unexplained stable CTA omissions, and 0 structural red findings
+at either width. Final evidence is recorded in
+`final-structural-{1440,360}.txt`.

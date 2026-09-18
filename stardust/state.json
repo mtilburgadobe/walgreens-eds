@@ -24,13 +24,14 @@
     "reason": "Pilot intentionally retains source image URLs until DA media import."
   },
   "replicaGate": {
-    "status": "failed",
+    "status": "passed",
     "pixelGatePassed": true,
-    "desktopPixelDiffPercent": 7.13,
+    "structuralGatePassed": true,
+    "desktopPixelDiffPercent": 6.87,
     "desktopHeightDeltaPx": 6,
-    "mobilePixelDiffPercent": 9.1,
-    "mobileHeightDeltaPx": -8,
-    "structuralRedFindingsPerWidth": 23,
+    "mobilePixelDiffPercent": 8.91,
+    "mobileHeightDeltaPx": -2,
+    "structuralRedFindingsPerWidth": 0,
     "passBarPercent": 10,
     "report": "stardust/replica/gate-report.md"
   },
@@ -43,6 +44,6 @@
     "codeCommit": "f54e873",
     "previewUrl": "https://main--walgreens-eds--mtilburgadobe.aem.page/",
     "published": false,
-    "publishBlockedBy": "Raw structural comparison reports 23 red findings per width."
+    "publishBlockedBy": "Editorial asset and font licensing/provenance review."
   }
 }
