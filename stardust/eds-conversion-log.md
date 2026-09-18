@@ -31,6 +31,9 @@ the preview root and `/index.plain.html` return 200 with no `about:error`.
 Commit `b267b8f` restores the authored section variants through DA-native
 section metadata. The deployed Beauty Savings Event section now resolves to
 `deep` with the expected `#62002e` background at desktop and mobile.
+Commit `6b0b94b` turns Beauty deals you’ll love into an accessible coupon
+carousel with responsive page movement, card snapping, and boundary-aware
+previous/next controls.
 
 - local QA: 34 checks passed, 0 failed
 - Experience Workspace: 123/123 authored texts editable
