@@ -24,15 +24,16 @@ provenance review.
 
 ## Delivery status
 
-This remediation is local-only. No commit, push, DA upload, preview request, or
-publish was performed. The existing deployed preview was used only as the
-requested baseline and cannot contain these unpushed fixes.
+Structural remediation commit `726f5ee` is pushed to `origin/main`.
+`content/index.html` was uploaded to DA and previewed without publishing.
+The authenticated DA source contains the corrected primary `Clip` CTA, and
+the preview root and `/index.plain.html` return 200 with no `about:error`.
 
 - local QA: 34 checks passed, 0 failed
 - Experience Workspace: 123/123 authored texts editable
 - final normalized pixel difference: 6.87% at 1440; 8.91% at 360
 - final height delta: 6px at 1440; -2px at 360
-- final normalized structural findings: 0 red at 1440; 0 red at 360
+- deployed normalized structural findings: 0 red at 1440; 0 red at 360
 
 Pixel, height, and structural bars pass. Production publishing remains
 deferred for editorial asset and font provenance review.
